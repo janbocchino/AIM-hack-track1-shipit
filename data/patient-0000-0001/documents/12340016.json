@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "12340016",
+    "title": "Histologie-Befund",
+    "version": "1",
+    "date": "2016-04-13",
+    "type": "HistoBefund",
+    "group": "Befund",
+    "division": "Sonstige",
+    "hospital": "Beispielkrankenhaus",
+    "department": "Pathologisches Institut",
+    "admission": {
+      "id": "0000-0005",
+      "type": "inpatient",
+      "admission": {
+        "date": "2016-04-10",
+        "time": "08:42:00"
+      },
+      "discharge": {
+        "date": "2016-04-15",
+        "time": "12:40:00"
+      }
+    }
+  },
+  "text": "Frau<BR>Beispielpatientin<BR>Straße XY/AB<BR>PLZ Ort<BR><BR> Patient(in): NN_0000-0001 VN_0000-0001 | geb. 15.03.1959<BR><BR> Fall: 20160410<BR><BR>Ort, am 13.04.2016<BR><BR>Histopathologischer Befund<BR><BR>Zuweiser: Dr Arzt<BR>Entnahmedatum: 11.04.2016<BR>Untersuchungsmaterial/Lokalisation: Stanzzylinder, Mamma links<BR>Entnahmetechnik: Stanzbiopsie<BR><BR>Makroskopischer Befund:<BR>Stanzzylinder in einer Einbettkassette fixiert.<BR><BR>Mikroskopischer Befund:<BR>Stanzbiopsiematerial aus der linken Mamma gut beurteilbar. Es zeigt sich Fettgewebe mit ausgedehnten Formationen eines invasiv duktalen Mammakarzinoms.<BR><BR>Immunhistologisches Profil:<BR>Hormonrezeptorstatus:<BR>Östrogenrezeptor: positiv (100% rezeptorpositive Tumorzellen) Allred-Score: 8 Progesteronrezeptor: positiv (70% rezeptorpositive Tumorzellen) Allred-Score: 7 Her2neu-Expression: negativ<BR>Ki67-Proliferationsrate: 20%<BR><BR>Zusammenfassung:<BR><BR>Stanzbiopsie der linken Brust mit Formationen eines invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2).<BR>Hormonrezeptor positiv, Her2neu negativ, Ki67-Proliferationsrate 20%<BR>Befundet: Dr Arzt<BR>Vidiert: Dr. Arzt"
+}

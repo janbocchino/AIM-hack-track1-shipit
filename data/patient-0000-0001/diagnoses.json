@@ -1,0 +1,2620 @@
+{
+  "metadata": {
+    "status": [
+      "positive",
+      "negative",
+      "suspected",
+      "statuspost"
+    ]
+  },
+  "values": [
+    {
+      "id": "d_uo_zVsYtt0su-qFHfAvTpbOEicU",
+      "name": "BÖSARTIGE NEUBILDUNGEN",
+      "values": [
+        {
+          "id": "d_F_LFgikg9IQsc_jBB-IutzfhYk8",
+          "name": "Bösartige Neubildung: Brustdrüse, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_-MY8fcATp_wi8bDO9FDveX9WADs_P_C50.9",
+              "name": "invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_QV5drhX1SvxofeSDHl2DQe8wdfI",
+                  "name": "invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "text": "invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "M",
+                      "value": "0"
+                    },
+                    {
+                      "name": "HR-Status",
+                      "value": "positiv"
+                    },
+                    {
+                      "name": "T",
+                      "value": "2"
+                    },
+                    {
+                      "name": "V",
+                      "value": "0"
+                    },
+                    {
+                      "name": "N",
+                      "value": "0"
+                    },
+                    {
+                      "name": "Ki67-Proliferationsrate",
+                      "value": "20%"
+                    },
+                    {
+                      "name": "Grad",
+                      "value": "2"
+                    },
+                    {
+                      "name": "HER-2-Status",
+                      "value": "negativ"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_10pFduOfQdh0vZDbSBe9MHo_NdI_P_C50.9",
+              "name": "invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_bwLq0mGsy4yxPQi3IFltd7vshUg",
+                  "name": "invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "text": "invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "N",
+                      "value": "0"
+                    },
+                    {
+                      "name": "Ki67-Proliferationsrate",
+                      "value": "20%"
+                    },
+                    {
+                      "name": "Grad",
+                      "value": "2"
+                    },
+                    {
+                      "name": "HER-2-Status",
+                      "value": "negativ"
+                    },
+                    {
+                      "name": "M",
+                      "value": "0"
+                    },
+                    {
+                      "name": "HR-Status",
+                      "value": "positiv"
+                    },
+                    {
+                      "name": "T",
+                      "value": "2"
+                    },
+                    {
+                      "name": "V",
+                      "value": "0"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340016"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_Q4dhAt2cAaGGfgu8b0uyFswf8ak_S_C50.9",
+              "name": "malignomsuspekte Läsion in der Brust",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_FXMiYFkpDg--imPGyio7k7uUz84",
+                  "name": "malignomsuspekte Läsion in der linken Brust",
+                  "text": "malignomsuspekte Läsion in der linken Brust",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_TCnM7Kb4t_vrnS0s1g315wspUfQ_P_C50.9",
+              "name": "invasiv duktales Mammakarzinom, Hormonrezeptor positiv, Her2neu negativ, Ki67-Proliferationsrate 20%, T2 N0 M0 V0 G2",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_o97dINm3p7K9CYRL9VsGbDC5BQk",
+                  "name": "invasiv duktales Mammakarzinom, Hormonrezeptor positiv, Her2neu negativ, Ki67-Proliferationsrate 20%, T2 N0 M0 V0 G2",
+                  "text": "invasiv duktales Mammakarzinom, Hormonrezeptor positiv, Her2neu negativ, Ki67-Proliferationsrate 20%, T2 N0 M0 V0 G2",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "T",
+                      "value": "2"
+                    },
+                    {
+                      "name": "V",
+                      "value": "0"
+                    },
+                    {
+                      "name": "Ki67-Proliferationsrate",
+                      "value": "20%"
+                    },
+                    {
+                      "name": "N",
+                      "value": "0"
+                    },
+                    {
+                      "name": "HER-2-Status",
+                      "value": "negativ"
+                    },
+                    {
+                      "name": "Grad",
+                      "value": "2"
+                    },
+                    {
+                      "name": "HR-Status",
+                      "value": "positiv"
+                    },
+                    {
+                      "name": "M",
+                      "value": "0"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_ZY6DTi5-BFrqycBy-1R85wkKGVE_P_C50.9",
+              "name": "invasiv duktalen Mammakarzinoms",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_s0bIBu7bDGU7wrLUqeoUVpgU5uA",
+                  "name": "invasiv duktalen Mammakarzinoms",
+                  "text": "invasiv duktalen Mammakarzinoms",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Ki67-Proliferationsrate",
+                      "value": "20%"
+                    },
+                    {
+                      "name": "HER-2-Status",
+                      "value": "negativ"
+                    },
+                    {
+                      "name": "PR-Status",
+                      "value": "positiv"
+                    },
+                    {
+                      "name": "ER-Status",
+                      "value": "positiv"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340016"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_eCycIjvOvqW4ugJn2rYYDqSDC_s_P_C50.9",
+              "name": "invasiv duktalen Mammakarzinoms",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_DC7FrQ87-kxqVTImF5Hv_3BsS4o",
+                  "name": "invasiv duktalen Mammakarzinoms",
+                  "text": "invasiv duktalen Mammakarzinoms",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_ePkgLchiAkTqpElq3UzAZjduJdQ_P_C50.9",
+              "name": "Mammakarzinom",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_m8wVOijvDSZ9jpbPuXHEmsfzFok",
+                  "name": "Mammakarzinom links",
+                  "text": "Mammakarzinom links",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_jhiwBb-Frp8zJDV-NBYNrIxFiFU_S_C50.9",
+              "name": "Vd.a. Mamma-Ca",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "C50.9",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_nRKVUPaesd7NQPheLA2ikTvq2wA",
+                  "name": "Vd.a. Mamma-Ca li.",
+                  "text": "Vd.a. Mamma-Ca li.",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_Via_ldYHe487QZokyhnr09UbDDw",
+      "name": "UNSICHERE NEUBILDUNGEN",
+      "values": [
+        {
+          "id": "d_72Tbd5E2a7sHYuW2rnqvh39Olrk",
+          "name": "Neubildung unsicheren oder unbekannten Verhaltens: Brustdrüse [Mamma]",
+          "values": [
+            {
+              "id": "d_2_NFrDu1O2iHaWf_HOlMfuPwG4Y_P_D48.6",
+              "name": "suspekte Läsion in der Brust",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "D48.6",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_v2-fvWaXiJ705yQwQnadEcWTNuo",
+                  "name": "suspekte Läsion in der linken Brust",
+                  "text": "suspekte Läsion in der linken Brust",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_q4grMykfxB9XwqhKIbklsSibFaA_P_D48.6",
+              "name": "Bekannte suspekte Läsion der Brust",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "D48.6",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_VMyUc7yvQxNJ-uFD62Ji9oEzthw",
+                  "name": "Bekannte suspekte Läsion der linken Brust",
+                  "text": "Bekannte suspekte Läsion der linken Brust",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "BIRADS",
+                      "value": "5"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_QOQidXukx8_0PNfSOJLIPO1upms",
+          "name": "Neubildung unsicheren oder unbekannten Verhaltens, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_0O_rFkPvz-wdjqUnfnTMb8Be-k8_P_D48.9",
+              "name": "Ausdehnung des Tumors",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "D48.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_kQRGc9B8Dwo17AmPcPRFSN9L_xQ",
+                  "name": "Ausdehnung des Tumors",
+                  "text": "Ausdehnung des Tumors",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_e1Ow9uPaiK0fnP8vfzTDVzZs0aY_N_D48.9",
+              "name": "Verletzungen, Fremdkörper oder Raumforderungen sind nicht erkennbar",
+              "status": "negative",
+              "code": {
+                "catalog": "ICD10",
+                "value": "D48.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_YfBwhuxe_ulpKhp085fa6XrSw3o",
+                  "name": "Verletzungen, Fremdkörper oder Raumforderungen sind nicht erkennbar",
+                  "text": "Verletzungen, Fremdkörper oder Raumforderungen sind nicht erkennbar",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_RUvvRP2h7sj1UoKRgaQ5eTnsZ3k",
+                  "name": "Verletzungen, Fremdkörper oder Raumforderungen sind nicht erkennbar",
+                  "text": "Verletzungen, Fremdkörper oder Raumforderungen sind nicht erkennbar",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_mvL1fdZmadIse0sUskg1U4USTPk",
+      "name": "ENDOKRINES SYSTEM",
+      "values": [
+        {
+          "id": "d_teX_IaftaXfldpl-Kiyb8b-ax6s",
+          "name": "Diabetes mellitus, Typ 2: Ohne Komplikationen",
+          "values": [
+            {
+              "id": "d_GO1mrCO7npo3KZ4KkVnQR6ekjFE_P_E11.9",
+              "name": "Diabetes Mellitus Typ II",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E11.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_SwlQKuoVNmAJnHvFfxrzfKUZ7k8",
+                  "name": "Diabetes Mellitus Typ II",
+                  "text": "Diabetes Mellitus Typ II",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d__CRewTbiD_BFHUg1rsh1iDJwe6c",
+                  "name": "Diabetes Mellitus Typ II",
+                  "text": "Diabetes Mellitus Typ II",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340014"
+                  ]
+                },
+                {
+                  "id": "d_S7UnMNta-q4NLPj1hHTZjROB8DQ",
+                  "name": "NIDDMII",
+                  "text": "NIDDMII",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_t8uy1w8KXX9s9DXa0D3ZrDpcL_Q_P_E11.9",
+              "name": "Gut eingestellter Diabetes mellitus Typ II",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E11.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_pKHQbRjAiYMPNsPGyzJ-DHuTiDQ",
+                  "name": "Gut eingestellter Diabetes mellitus Typ II",
+                  "text": "Gut eingestellter Diabetes mellitus Typ II",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "HbA1c",
+                      "value": "6,4%"
+                    },
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_qlEHq7ZINJXUxNX_lU7EcdlkQYM",
+                  "name": "bekannten DMII (HbA1c 6,4%)",
+                  "text": "bekannten DMII (HbA1c 6,4%)",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "HbA1c",
+                      "value": "6,4%"
+                    },
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_uXkDLkunxtzaz2pWYukhuSM5cA8_P_E11.9",
+              "name": "Gut eingestellter Diabetes mellitus Typ II",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E11.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_PaIcW1YHYmkyTHxrOa8YBybVDJ4",
+                  "name": "Gut eingestellter Diabetes mellitus Typ II",
+                  "text": "Gut eingestellter Diabetes mellitus Typ II",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    },
+                    {
+                      "name": "HbA1c",
+                      "value": "6,4%"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_r0N4h6zF1CJIEK01z0Byc-eGrP4",
+                  "name": "bekannten DMII (HbA1c 6,4%)",
+                  "text": "bekannten DMII (HbA1c 6,4%)",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    },
+                    {
+                      "name": "HbA1c",
+                      "value": "6,4%"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340011"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_vdq9VWVTwqgCgtsog7KMOvBNQb4_P_E11.9",
+              "name": "Diab. Mell. II",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E11.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_fZDy_iUVS_dH2gBx5tZcq_gRzxE",
+                  "name": "Diab. Mell. II",
+                  "text": "Diab. <SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"mall.\"],\"type\":\"spellcorrection\"}]'>Mell.</SPAN> II",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Typ",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_IfYp9to5oXsyikJG044gCulckNY",
+      "name": "ERNÄHRUNG",
+      "values": [
+        {
+          "id": "d_Vl7UgOhcLMBiBYRRISBpULj5_rY",
+          "name": "Vitamin-D-Mangel, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_8UN82xuYNJv_rP0wWXOPudyX91I_P_E55.9",
+              "name": "Vitamin-D-Mangel mit Osteoporose",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E55.9",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d__UHk4ow-fTWsHI_QZkr3tGBbh7E",
+                  "name": "Vitamin-D-Mangel mit Osteoporose",
+                  "text": "Vitamin-D-Mangel mit Osteoporose",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_ur0z6XKA23n8tVk4dEYVGBa3P14",
+                  "name": "Vitamin-D-Mangel mit Osteoporose",
+                  "text": "Vitamin-D-Mangel mit Osteoporose",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_e2zF79p3amEO0aOCRJAw9uQFqIw",
+          "name": "Adipositas, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_PMDg71lJJGgCFXzDHJ6BnwJcdZ8_P_E66.9",
+              "name": "Übergewicht",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E66.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_xyfLp3N49-umSvcvOj4u9qrdF9g",
+                  "name": "Übergewicht",
+                  "text": "Übergewicht",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_N54GfZ8nDk5e-SM2sJ7KkRBQ-mk",
+      "name": "STOFFWECHSEL",
+      "values": [
+        {
+          "id": "d_82g5NKXw0TZG0q2oOMEhOpLAOEA",
+          "name": "Reine Hypercholesterinämie",
+          "values": [
+            {
+              "id": "d_6qD1zY-cEQdQ-xY7-_3b8Vhlq70_P_E78.0",
+              "name": "Hypercholesterinämie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E78.0",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_djFKf1L3WMKgFl0F8cgIgzGIKgk",
+                  "name": "Hypercholesterinämie",
+                  "text": "Hypercholesterinämie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_ucIH8lg2_mBl5C1rIyg1Ri9T_oA",
+                  "name": "Hypercholesterinämie",
+                  "text": "Hypercholesterinämie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_nEVVfbPGsY2maXv2yQku64n6WTo",
+          "name": "Hyperlipidämie, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_M70cWXLBnYqh1TcK8Vy49gYZe9U_P_E78.5",
+              "name": "HLP",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E78.5",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_dLtUxdFE1C0DMwWb7JHLmwmeJeE",
+                  "name": "HLP",
+                  "text": "HLP",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_t7XrnsOjfp653g3GyYhcleXbH1A_P_E78.5",
+              "name": "Hyperlipidämie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E78.5",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_G0O3K2AdCZu5sa_zBzJBSaF5b4c",
+                  "name": "Hyperlipidämie",
+                  "text": "Hyperlipidämie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_JuGPs3z_Ystvlo0ivDruXCAOINs",
+                  "name": "Hyperlipidämie",
+                  "text": "Hyperlipidämie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_v97yy8szYP3EcHokvUHuKequ0Ks",
+          "name": "Störung des Lipoproteinstoffwechsels, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_d9lVSCtzwFYsA2fdndPo67siOD4_P_E78.9",
+              "name": "bekannter Dyslipidämie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "E78.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_1_2KpwkZLTYFnVFYLV-tNeEH6h8",
+                  "name": "bekannter Dyslipidämie",
+                  "text": "bekannter Dyslipidämie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_f1uGrfEJPKJ5yysT-vWaTUyLfdk",
+      "name": "NERVENSYSTEM",
+      "values": [
+        {
+          "id": "d_Px-XgHzQRVsxHGiQTi2XR8W7ME8",
+          "name": "Amaurosis fugax",
+          "values": [
+            {
+              "id": "d_ZBISzaNec6Yzx6uGllH3SpJYBgM_P_G45.3",
+              "name": "Amaurosis fugax Auge mit 60% Stenose der A. Carotis",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "G45.3",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_Is6yc9ydQGg1CYQPxb23evr9e_c",
+                  "name": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "text": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_GYfnq8plSgkoRwaOy6hQJT5cIWM",
+                  "name": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "text": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_aiSM03UkRme_qrdBRfkOoy75d70_P_G45.3",
+              "name": "Amaurosis fugax",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "G45.3",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_HEy-7c5UWSdazUoECYAbtpbp0HI",
+                  "name": "Amaurosis fugax",
+                  "text": "Amaurosis fugax",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_w4vzDGUb12kNk6YaNQws0h1SO7U_S_G45.3",
+              "name": "Amaurosis fugax?",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "G45.3",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_3KtFQFKL9ZmWr3SO8zc4fZ2DuIs",
+                  "name": "Amaurosis fugax?",
+                  "text": "Amaurosis fugax?",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_JzdAl9ZrY271fdm0C_4tjEA840U",
+                  "name": "Amaurosis fugax?",
+                  "text": "Amaurosis fugax?",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_NAztAZFDSjHBU7n-4r2lb85an4A",
+          "name": "Schlafapnoe",
+          "values": [
+            {
+              "id": "d_gDTQSILeEHzJZfJdeKvlQS5UABE_P_G47.3",
+              "name": "Schlafapnoe",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "G47.3",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_oDmbl9edc5FeAkq3ewpkQcJOQ2Y",
+                  "name": "Schlafapnoe",
+                  "text": "Schlafapnoe",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_pI1o9J4Xy6dlQ0s0SU0mDBbmshg",
+                  "name": "Schlafapnoe",
+                  "text": "Schlafapnoe",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_JhJW1Z69DoRHz3a7jqGqOPvyA-c",
+          "name": "Sonstige näher bezeichnete Krankheiten des Gehirns",
+          "values": [
+            {
+              "id": "d_0kv8QST9GQ_t6Wq8iJM2QHtXNFI_N_G93.8",
+              "name": "ohne Zeichen einer Liquorzirkulationsstörung",
+              "status": "negative",
+              "code": {
+                "catalog": "ICD10",
+                "value": "G93.8",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_2w27E04yL-lZyEYamNH5NOD6eCM",
+                  "name": "ohne Zeichen einer Liquorzirkulationsstörung",
+                  "text": "ohne Zeichen einer Liquorzirkulationsstörung",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_oKPqfbBBN8xjYTx2cF0p3ZgN0e4",
+      "name": "VISUELLES SYSTEM",
+      "values": [
+        {
+          "id": "d_d-NWBzk3VNGy52T687D-aerlq9w",
+          "name": "Verschluss der A. centralis retinae",
+          "values": [
+            {
+              "id": "d_HOEYjWCvcIwV1nr39iz6LZ7_37Q_S_H34.1",
+              "name": "ZAV?",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H34.1",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_ObMHH0FAY6za020cf0boBGZApE0",
+                  "name": "ZAV?",
+                  "text": "ZAV?",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_bZrEHerR8bETvKnLKK_AXEmnWJ0",
+                  "name": "ZAV?",
+                  "text": "ZAV?",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_ZcYmppVLSecw-UkYnYJMi2iYDDA",
+          "name": "Sonstiger Verschluss retinaler Arterien",
+          "values": [
+            {
+              "id": "d_ZymHI--qtKqO3qGwanEVMtTWkZ4_P_H34.2",
+              "name": "Hollenhorst-Plaques",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H34.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d__HGRs_V2oMNgwaFzbj7-0RjwmlQ",
+                  "name": "Hollenhorst-Plaques bds.",
+                  "text": "Hollenhorst-Plaques bds.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_o8yZ1QHId6st5h4dz2B-gk2fnpI",
+                  "name": "Hollenhorst-Plaques bds.",
+                  "text": "Hollenhorst-Plaques bds.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_hfZX2oJK4JiYbRyvQ0lL5Ul6A_Y_P_H34.2",
+              "name": "kurzzeitigen vorübergehenden retinalen Minderdurchblutung mit vereinzelten Hollenhorst-Plaques",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H34.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_f9Y4dGH7IU9WtG3GJGhB3nz5-bA",
+                  "name": "kurzzeitigen vorübergehenden retinalen Minderdurchblutung mit vereinzelten Hollenhorst-Plaques",
+                  "text": "kurzzeitigen vorübergehenden retinalen Minderdurchblutung mit vereinzelten Hollenhorst-Plaques",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_ySNf9ZM7MbBUc0YKd2zOsusLFoI",
+          "name": "Retinopathien des Augenhintergrundes und Veränderungen der Netzhautgefäße",
+          "values": [
+            {
+              "id": "d_4O3-d110Paqv4q-jkXivAqtC_58_P_H35.0",
+              "name": "Fundus: Fundus hypertonicus mit dezentem Papillenödem",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H35.0",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_x51HR3wseUzjfcPGSYuS1TGcyuY",
+                  "name": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "text": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_UC4tQZQZLSkekjKHBqr0SGX1ioc",
+                  "name": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "text": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_ShByyX_YaRWhkjH9odEfoqRrPNA_P_H35.0",
+              "name": "beginnende hypertensive Retinopathie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H35.0",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_XX6JkvLNzCWLACfCxx_BpzVjY3E",
+                  "name": "beginnende hypertensive Retinopathie",
+                  "text": "beginnende hypertensive Retinopathie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_oTsWZOl38FRp_LuhVbyq9U4eOC0_S_H35.0",
+              "name": "Fragestellung: hypertensive Retinopathie",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H35.0",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_QZVtQEHOIeZacxFIwzQgieExsus",
+                  "name": "Fragestellung: hypertensive Retinopathie",
+                  "text": "Fragestellung: hypertensive Retinopathie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_6npY_7bTUSkmBhXRdr4HHMq-_JI",
+                  "name": "Fragestellung: hypertensive Retinopathie",
+                  "text": "Fragestellung: hypertensive Retinopathie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_q17h3ouXXj_hSpX5HVfjIM4hgyc_P_H35.0",
+              "name": "Fundus hypertonicus",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H35.0",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_raNdzoQsmlds4iRnQyNUnwOEsWM",
+                  "name": "Fundus hypertonicus bds.",
+                  "text": "Fundus hypertonicus bds.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_4FEhlTLW6hSQhBgu5TKnIlaAyHo",
+                  "name": "Fundus hypertonicus bds.",
+                  "text": "Fundus hypertonicus bds.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_y71lLU9c3kdH2tfcVn8bAIsW7ns",
+          "name": "Sonstige näher bezeichnete Affektionen der Netzhaut",
+          "values": [
+            {
+              "id": "d_Z3QY8GQXZNF_B7DuZpmL2XlumCQ_P_H35.8",
+              "name": "Weiße, dezent ödematöse Retina der Fovea Auge",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H35.8",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_XX_rPPzCGTr_I14OnhaNFF49q-s",
+                  "name": "Weiße, dezent ödematöse Retina superior der Fovea linkes Auge",
+                  "text": "Weiße, dezent ödematöse Retina superior der Fovea linkes Auge",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_MQzt-0aTNn0NqHgmzabCyjJucvg",
+                  "name": "Weiße, dezent ödematöse Retina superior der Fovea linkes Auge",
+                  "text": "Weiße, dezent ödematöse Retina superior der Fovea linkes Auge",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_PMILlQ_R-0HM3SvdVDXkf_1Sf4c",
+          "name": "Stauungspapille, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_4O3-d110Paqv4q-jkXivAqtC_58_P_H47.1",
+              "name": "Fundus: Fundus hypertonicus mit dezentem Papillenödem",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H47.1",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_x51HR3wseUzjfcPGSYuS1TGcyuY",
+                  "name": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "text": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_UC4tQZQZLSkekjKHBqr0SGX1ioc",
+                  "name": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "text": "Fundus: Fundus hypertonicus mit dezentem Papillenödem li > re.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_vAx6lp2HuERl7Mhha9VFCqnZmwk",
+          "name": "Sehstörung, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_mul2Cj6Ztl6vOU-sGMuDbNQ1c8M_P_H53.9",
+              "name": "Sehverschlechterung am Auge",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H53.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_-Ma02Q6LGDJ78DqIdvazkpX9Eqo",
+                  "name": "Sehverschlechterung am linken Auge",
+                  "text": "Sehverschlechterung am linken Auge",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_ZGhjvimbs0f06bJHjhx9ph-jVXc",
+          "name": "Nicht näher bezeichnete Sehbeeinträchtigung (binokular)",
+          "values": [
+            {
+              "id": "d_dyixr2XmOC2NXBLzwP0G1Jl4ubQ_P_H54.9",
+              "name": "kurzzeitigem partiellen Sehverlust",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "H54.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_S635fttSq1AWhxQtPOZIdaRODSE",
+                  "name": "kurzzeitigem partiellen Sehverlust",
+                  "text": "kurzzeitigem partiellen Sehverlust",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_UfSgt8DdcIfrllOk-Pjss6qWJbw",
+      "name": "HERZ- UND KREISLAUFSYSTEM",
+      "values": [
+        {
+          "id": "d_oqifpeVmCb227XBdxfgr3tGx5xE",
+          "name": "Essentielle (primäre) Hypertonie",
+          "values": [
+            {
+              "id": "d_AY5T0wQntxw2lwrQjgbYNJBSGrE_P_I10",
+              "name": "Art. Hypertonie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_v64LsXz6oGPvZMQuC34dQmwh2Wc",
+                  "name": "Art. Hypertonie",
+                  "text": "Art. Hypertonie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_sPN8qMlIbcmsy6IPeJKXyBzc7Eg",
+                  "name": "art HT",
+                  "text": "art HT",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_MGPO7C-SuvwAJIfhEBA4cg0rCcA_P_I10",
+              "name": "hypertensive Krise",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_XbFI0CrI4trG7BuYLTilKXSuQr0",
+                  "name": "hypertensive Krise",
+                  "text": "hypertensive Krise",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340010"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_SR3Rg6XoXoTPhtpCndGmL1ANq0Y_T_I10",
+              "name": "St.p. Hypertensiver Krise",
+              "status": "statuspost",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_VhasfK2FjRQW_un2Hz0Rq3_m5Sg",
+                  "name": "St.p. Hypertensiver Krise",
+                  "text": "St.p. Hypertensiver Krise",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_bwM_O9-FbNC6NJnM9X8OqY0xPSc_P_I10",
+              "name": "hypertensive Krise",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_n86smtq7bZUzG4jTy372ecmgwM4",
+                  "name": "hypertensive Krise",
+                  "text": "hypertensive Krise",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_qa3dgI95Ii1pQcNfsQowGUzwOaQ_P_I10",
+              "name": "Art. Hypertonie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_UUiZhAeWW1ReSuC79QjocEIkBN4",
+                  "name": "Art. Hypertonie",
+                  "text": "Art. Hypertonie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_rbqxYvi61glzKAcE2extyjv67mA_P_I10",
+              "name": "Art. HTN",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_prAB75G3zHAsyOko6wh68aCPw44",
+                  "name": "Art. HTN",
+                  "text": "Art. HTN",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_taSqd7DCsBoGQNqgLCkienS30mA_S_I10",
+              "name": "Verdacht auf eine hypertensive Krise",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_Z9Ja4x8w5VCOAVDkMdVcUYRYOh0",
+                  "name": "Verdacht auf eine hypertensive Krise",
+                  "text": "Verdacht auf eine hypertensive Krise",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_yRBj5K2k269ederZ7tW6yjBENxs_T_I10",
+              "name": "Z.n. Hypertensive Krise",
+              "status": "statuspost",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I10",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_V2k-G4A9q8VpCr92IuvVBq_adjo",
+                  "name": "Z.n. Hypertensive Krise",
+                  "text": "Z.n. Hypertensive Krise",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_NxLedJPU3zb9moMyr8zpPYLdf3w",
+          "name": "Sonstige näher bezeichnete sekundäre pulmonale Hypertonie",
+          "values": [
+            {
+              "id": "d_vEFpSwimppIUqEQa_6ZyyJGeH88_N_I27.2",
+              "name": "kein Anhalt für pulmonale Hypertonie",
+              "status": "negative",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I27.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_Ga6_G9sYBkZ4k7mQ_uMx5HuPdEA",
+                  "name": "kein Anhalt für pulmonale Hypertonie",
+                  "text": "kein Anhalt für pulmonale Hypertonie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_3EjDVYyUXeEhxIPv83z6eZ-skXU",
+          "name": "Perikarderguss (nichtentzündlich)",
+          "values": [
+            {
+              "id": "d_idyV-XrB_f8_T-rZecu34eWWFC4_N_I31.3",
+              "name": "Kein Perikarderguß",
+              "status": "negative",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I31.3",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_uOM3bFXYc4fAlYOFVhxgbDsvDEE",
+                  "name": "Kein Perikarderguß",
+                  "text": "Kein Perikarderguß",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Ejektionsfraktion",
+                      "value": "60%"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_8wNNd6l944Jq9iBsobrMvCGBJIg",
+          "name": "Vorhofflimmern und Vorhofflattern, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_d8lFfTvErLsY0f96J9JYI0gAoiQ_S_I48.9",
+              "name": "VHF?",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I48.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_b-Bg6o-46zouu1VuOm_-ZmAa0rA",
+                  "name": "VHF?",
+                  "text": "VHF?",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340009"
+                  ]
+                },
+                {
+                  "id": "d_QY7me_XNCFZq9Tqb_IpkXu-LzQU",
+                  "name": "VHF?",
+                  "text": "VHF?",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_CQn0Wqj8y5iUEdXsn0khyfUhs_A",
+          "name": "Sonstige und nicht näher bezeichnete Extrasystolie",
+          "values": [
+            {
+              "id": "d_arXcaOpxRUYShaATvlXgivzQDrE_P_I49.4",
+              "name": "SVES",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I49.4",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_cMOKUw7S1yZBUqydJWGUkTdoPRI",
+                  "name": "SVES",
+                  "text": "SVES",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340009"
+                  ]
+                },
+                {
+                  "id": "d_yYNEa_OHQO3YDXM6o4gtZ21ps68",
+                  "name": "SVES",
+                  "text": "SVES",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_Q06JEWfVYw2_oXck3d81E1rw1oc",
+          "name": "Sonstige näher bezeichnete kardiale Arrhythmien",
+          "values": [
+            {
+              "id": "d_YPxRnWyNVHUoDioXeOPUMqW1y3o_N_I49.8",
+              "name": "keine komplexen ventr. Arrhythmien",
+              "status": "negative",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I49.8",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_CcV_oFDPjOjslPDR1Fn_Anu5bSk",
+                  "name": "keine komplexen ventr. Arrhythmien",
+                  "text": "keine komplexen <SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"venter\",\"Venter\"],\"type\":\"spellcorrection\"}]'>ventr</SPAN>. Arrhythmien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340009"
+                  ]
+                },
+                {
+                  "id": "d_s3k3zbnVanGlPBmoZnh--AD_Ga0",
+                  "name": "keine komplexen ventr. Arrhythmien",
+                  "text": "keine komplexen <SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"venter\",\"Venter\"],\"type\":\"spellcorrection\"}]'>ventr</SPAN>. Arrhythmien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_RoiAFvLh-yKCLqZFYSe5OYvYoiM",
+          "name": "Kardiale Arrhythmie, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_Vct8nhKphA9S8SJCT2T-GeLt_7U_S_I49.9",
+              "name": "Fragestellung: Arrhythmien",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I49.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_50efSrf_s7PlEyRx25RS_Hy-FEY",
+                  "name": "Fragestellung: Arrhythmien",
+                  "text": "Fragestellung: Arrhythmien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340009"
+                  ]
+                },
+                {
+                  "id": "d_X5yGredkPlk3IBy49HhdSdA9cwU",
+                  "name": "Fragestellung: Arrhythmien",
+                  "text": "Fragestellung: Arrhythmien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_SPAOU5F7F5Boy4wBjXCi7Cbqkp0",
+          "name": "Kongestive Herzinsuffizienz",
+          "values": [
+            {
+              "id": "d_d96nNzgsebf2WHMKBwwXMTvReYY_N_I50.0",
+              "name": "keine Zeichen der Rechtsherzbelastung",
+              "status": "negative",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I50.0",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_XKLdZQj5fh7yZk7wDmo_F8IoGmM",
+                  "name": "keine Zeichen der Rechtsherzbelastung",
+                  "text": "keine Zeichen der Rechtsherzbelastung",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_INAD37Xwk1Rkaev8cq97hmZJd_k",
+          "name": "Verschluss und Stenose der A. carotis",
+          "values": [
+            {
+              "id": "d_-z1ww-XkzzsYumMiEOLTHd9cjWk_P_I65.2",
+              "name": "Arteriosklerotischer Gefäßschaden im Karotissiphon",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_x2UhgKw5vpK_LBKMgkDRsr2lZtw",
+                  "name": "Arteriosklerotischer Gefäßschaden im Karotissiphon li.",
+                  "text": "Arteriosklerotischer Gefäßschaden im Karotissiphon li.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_Q8G5HeDt8QwuqJjbuD0XEWWySxU_S_I65.2",
+              "name": "Fragestellung: Carotisstenose",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_N-n2b8laxHCLQoL2kV9eGbFHplY",
+                  "name": "Fragestellung: Carotisstenose",
+                  "text": "Fragestellung: Carotisstenose",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_YYrVn65k_cFu-WqFgO58_uCdQxE_P_I65.2",
+              "name": "hämodynamisch relevante 60%ige arteriosklerotische Stenose an der Karotisbifurkation",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_exuiBEvGsyIqjhDC0LCySWP0mGs",
+                  "name": "hämodynamisch relevante 60%ige arteriosklerotische Stenose an der linken Karotisbifurkation",
+                  "text": "hämodynamisch relevante 60%ige arteriosklerotische Stenose an der linken Karotisbifurkation",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_ZBISzaNec6Yzx6uGllH3SpJYBgM_P_I65.2",
+              "name": "Amaurosis fugax Auge mit 60% Stenose der A. Carotis",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_Is6yc9ydQGg1CYQPxb23evr9e_c",
+                  "name": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "text": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_GYfnq8plSgkoRwaOy6hQJT5cIWM",
+                  "name": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "text": "Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d__WUJwgAiVG9cghkLILFMEDLlqaM_P_I65.2",
+              "name": "Maximal 60%ige Abgangsstenose der Arteria carotis interna",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_6VsDF_fVuC6osGTz4YvjXqmh2Ec",
+                  "name": "Maximal 60%ige Abgangsstenose der Arteria carotis interna links",
+                  "text": "Maximal 60%ige Abgangsstenose der Arteria carotis interna links",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                },
+                {
+                  "id": "d_ENYwLCuc4RjNlHwUGS7YpTrA2w4",
+                  "name": "Maximal 60%ige Abgangsstenose der Arteria carotis interna links",
+                  "text": "Maximal 60%ige Abgangsstenose der Arteria carotis interna links",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d__eTBA2oFx5lwrCFvTRTkoyhC-FM_P_I65.2",
+              "name": "Carotissklerose",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_F8ZDEnkYkluViodQpmma6XW_5uQ",
+                  "name": "Carotissklerose li.",
+                  "text": "Carotissklerose li.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_b0mpdS4pIzMO3zdIROt_msBHENY_P_I65.2",
+              "name": "atherosklerotische Veränderungen im Bereich der Karotisarterie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_SKjXyD5VECeIgBIAA-CShXKxzJ8",
+                  "name": "atherosklerotische Veränderungen im Bereich der linken Karotisarterie",
+                  "text": "atherosklerotische Veränderungen im Bereich der linken Karotisarterie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_l6dpNPFoWxk0pZ53joSRdVZYAww_P_I65.2",
+              "name": "artherosklerotische Karotisstenose",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I65.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_31OzRjfFwZqKiLZFcpohx27qLyg",
+                  "name": "60% Karotisstenose links",
+                  "text": "60% Karotisstenose links",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "d_98x35jMHZfKboVfOODNbIdJuaHc",
+                  "name": "60% Karotisstenose links",
+                  "text": "60% Karotisstenose links",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_0rIJFsEO1yKl62cBNADjClagC_c",
+                  "name": "artherosklerotische Karotisstenose",
+                  "text": "<SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"Atherosklerotische\",\"atherosklerotische\"],\"type\":\"spellcorrection\"}]'>artherosklerotische</SPAN> Karotisstenose",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_wdaHwfkMjWYVuvYsAwLcc4KWHgY",
+          "name": "Zerebrale Atherosklerose",
+          "values": [
+            {
+              "id": "d_xmzuEGYd5h5-O62HUGYH6TO0t1c_S_I67.2",
+              "name": "Sklerose intrakranieller Gefäße?",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I67.2",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_6sBJZ-uccr1UcbSjCP_75DwvZCQ",
+                  "name": "Sklerose intrakranieller Gefäße?",
+                  "text": "Sklerose intrakranieller Gefäße?",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_iguSUc11zt0gzgv-9RhPX9llT7U",
+          "name": "Sonstige und nicht näher bezeichnete Krankheiten des Kreislaufsystems",
+          "values": [
+            {
+              "id": "d_oE0BMut6mlgVnCXw-xZX4q1L0Ts_S_I99",
+              "name": "Fragestellung: Ischämie",
+              "status": "suspected",
+              "code": {
+                "catalog": "ICD10",
+                "value": "I99",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_czu3KGlQjhjrMgtIfXQa446LWU4",
+                  "name": "Fragestellung: Ischämie",
+                  "text": "Fragestellung: Ischämie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_LdxTCMgSACcu1-be75CIxGdbc6A",
+      "name": "VERDAUUNGSSYSTEM",
+      "values": [
+        {
+          "id": "d_gbgS0Bgog7VlgIqsn8O7C-vsa34",
+          "name": "Gastroösophageale Refluxkrankheit ohne Ösophagitis",
+          "values": [
+            {
+              "id": "d_Ia43uYp-FwlnF5ldwP_BaEpTGIU_P_K21.9",
+              "name": "GERD II°",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "K21.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_ljuUHa-oOaV9DOlaA3xe-vzowOY",
+                  "name": "GERD II°",
+                  "text": "GERD II°",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Grad",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_tXymMeCHxfQgtBJseGjVLgFXUGs_P_K21.9",
+              "name": "Gastroösophageale Refluxkrankheit, Grad II",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "K21.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_dQ0zymXP2XhxW6yopg2tJbiVdtw",
+                  "name": "Gastroösophageale Refluxkrankheit, Grad II",
+                  "text": "Gastroösophageale Refluxkrankheit, Grad II",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Grad",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_zrH-6Ybgh4KACUg3y5yZyfjiMWU",
+                  "name": "Gastroösophageale Refluxkrankheit, Grad II",
+                  "text": "Gastroösophageale Refluxkrankheit, Grad II",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "scores": [
+                    {
+                      "name": "Grad",
+                      "value": "2"
+                    }
+                  ],
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_Myc3ijYP_nBdxxmbWBaKEUayY7Y",
+          "name": "Hernia diaphragmatica ohne Einklemmung und ohne Gangrän",
+          "values": [
+            {
+              "id": "d_4Q8l5j651Hl_-TAXD2uAa6-cgDE_P_K44.9",
+              "name": "Geringgradige axiale Hiatushernie",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "K44.9",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "d_xv-WdyYpgsvp8NiTyUGvGwsZCa4",
+                  "name": "Geringgradige axiale Hiatushernie",
+                  "text": "Geringgradige axiale Hiatushernie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_Way3iRnlm40oyrPD4z87pJoC4n0",
+      "name": "MUSKEL-SKELETT-SYSTEM UND BINDEGEWEBE",
+      "values": [
+        {
+          "id": "d_rq7lKFMhJOlMn7pmiqcEdZsfu5Q",
+          "name": "Systemischer Lupus erythematodes, nicht näher bezeichnet",
+          "values": [
+            {
+              "id": "d_Zmu6McK9yNiOvQe9GESB_jTtApE_P_M32.9",
+              "name": "Systemischer Lupus erythematodes",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "M32.9",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_3JZymeHzM810Vm6nAm57PddVE6I",
+                  "name": "Systemischer Lupus erythematodes",
+                  "text": "Systemischer Lupus <SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"erythematoes\",\"Erythematoes\"],\"type\":\"spellcorrection\"}]'>erythematodes</SPAN>",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_oGi5yljTu5vJY7UOo8G4_OznEnE",
+                  "name": "Systemischer Lupus erythematodes",
+                  "text": "Systemischer Lupus <SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"erythematoes\",\"Erythematoes\"],\"type\":\"spellcorrection\"}]'>erythematodes</SPAN>",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_whQgIMA-LHD5FJM13IZ41-Bsjtk_P_M32.9",
+              "name": "SLE",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "M32.9",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d_tG_2VIZcerUyI5yts5C4cPLejoA",
+                  "name": "SLE",
+                  "text": "SLE",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d_0U4Od-NdU6VB5UNEWmfItaowKkE",
+          "name": "Osteoporose, nicht näher bezeichnet: Nicht näher bezeichnete Lokalisationen",
+          "values": [
+            {
+              "id": "d_8UN82xuYNJv_rP0wWXOPudyX91I_P_M81.99",
+              "name": "Vitamin-D-Mangel mit Osteoporose",
+              "status": "positive",
+              "code": {
+                "catalog": "ICD10",
+                "value": "M81.99",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "d__UHk4ow-fTWsHI_QZkr3tGBbh7E",
+                  "name": "Vitamin-D-Mangel mit Osteoporose",
+                  "text": "Vitamin-D-Mangel mit Osteoporose",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "d_ur0z6XKA23n8tVk4dEYVGBa3P14",
+                  "name": "Vitamin-D-Mangel mit Osteoporose",
+                  "text": "Vitamin-D-Mangel mit Osteoporose",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d_2SFkLlCxt5M5nopFffxHAAqNLQo",
+      "name": "SONSTIGES",
+      "default": true,
+      "values": [
+        {
+          "id": "d_2SFkLlCxt5M5nopFffxHAAqNLQo",
+          "name": "Sonstiges",
+          "default": true,
+          "values": [
+            {
+              "id": "d_Eq2-_RrFMhJFFvT1YlqSgOT-0vk_P",
+              "name": "verkalkte Plaquebildungen",
+              "status": "positive",
+              "values": [
+                {
+                  "id": "d_FeDAsXKc7Hraurs4dT-OcVDlWJ4",
+                  "name": "verkalkte Plaquebildungen",
+                  "text": "verkalkte Plaquebildungen",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                },
+                {
+                  "id": "d_r2NkzDdrPU3uEPTtiZzMU0xgFRg",
+                  "name": "verkalkte Plaquebildungen",
+                  "text": "verkalkte Plaquebildungen",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_Iby1JcE6Ll3dHF0RbHbRGpz2B_o_P",
+              "name": "Einengung durch Kalkplaques",
+              "status": "positive",
+              "values": [
+                {
+                  "id": "d_vXuaZe8WvFTi5U8oW1NDOvhmHag",
+                  "name": "Einengung durch Kalkplaques",
+                  "text": "Einengung durch Kalkplaques",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                },
+                {
+                  "id": "d_LxJES1i0REB3OUtJT9pMa-3uzX4",
+                  "name": "Einengung durch Kalkplaques",
+                  "text": "Einengung durch Kalkplaques",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_KJR3jRepO95Uw4ClHvC9pM8nAEo_N",
+              "name": "keine Anzeichen für ein entzündliches Geschehen",
+              "status": "negative",
+              "values": [
+                {
+                  "id": "d_ywY7ezbIjMDMKbT2EOEyXsV-g94",
+                  "name": "keine Anzeichen für ein entzündliches Geschehen",
+                  "text": "keine Anzeichen für ein entzündliches Geschehen",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_Ppr2eFN4qvBK55fKSE2GGq2gDCw_P",
+              "name": "Augensymptomatik",
+              "status": "positive",
+              "values": [
+                {
+                  "id": "d_NmNzj4iUDrQmGKvyg852wol8faI",
+                  "name": "Augensymptomatik",
+                  "text": "Augensymptomatik",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

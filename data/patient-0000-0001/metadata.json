@@ -1,0 +1,93 @@
+{
+  "fields": [
+    {
+      "type": "admission",
+      "values": [
+        {
+          "id": "0000-0005",
+          "type": "inpatient",
+          "admission": {
+            "date": "2016-04-10",
+            "time": "08:42:00"
+          },
+          "discharge": {
+            "date": "2016-04-15",
+            "time": "12:40:00"
+          }
+        },
+        {
+          "id": "0000-0004",
+          "type": "outpatient",
+          "admission": {
+            "date": "2016-04-04",
+            "time": "10:02:00"
+          },
+          "discharge": {
+            "date": "2016-04-04",
+            "time": "11:39:00"
+          }
+        },
+        {
+          "id": "0000-0003",
+          "type": "inpatient",
+          "admission": {
+            "date": "2015-06-12",
+            "time": "11:02:00"
+          },
+          "discharge": {
+            "date": "2015-06-13",
+            "time": "10:35:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "documentType",
+      "values": [
+        {
+          "id": "Befund"
+        },
+        {
+          "id": "Bildgebung"
+        },
+        {
+          "id": "Konsil"
+        },
+        {
+          "id": "Patientenbrief"
+        },
+        {
+          "id": "Patientenbrief ambulant"
+        }
+      ]
+    },
+    {
+      "type": "division",
+      "values": [
+        {
+          "id": "Augenheilkunde und Optometrie"
+        },
+        {
+          "id": "Bildgebung"
+        },
+        {
+          "id": "Innere Medizin - Kardiologie, Angiologie"
+        },
+        {
+          "id": "Onkologie/Hämatologie/Strahlentherapie"
+        },
+        {
+          "id": "Sonstige"
+        }
+      ]
+    },
+    {
+      "type": "hospital",
+      "values": [
+        {
+          "id": "Beispielkrankenhaus"
+        }
+      ]
+    }
+  ]
+}

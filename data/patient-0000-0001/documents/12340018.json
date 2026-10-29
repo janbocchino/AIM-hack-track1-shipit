@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "12340018",
+    "title": "Stat. Patientenbrief (Interne)",
+    "version": "1",
+    "date": "2016-04-15",
+    "type": "Arztbrief(Inter.)",
+    "group": "Patientenbrief",
+    "division": "Onkologie/Hämatologie/Strahlentherapie",
+    "hospital": "Beispielkrankenhaus",
+    "department": "3. Medizinische Abteilung mit Onkologie",
+    "admission": {
+      "id": "0000-0005",
+      "type": "inpatient",
+      "admission": {
+        "date": "2016-04-10",
+        "time": "08:42:00"
+      },
+      "discharge": {
+        "date": "2016-04-15",
+        "time": "12:40:00"
+      }
+    }
+  },
+  "text": "ORTXXX, am 15.04.2016<BR><BR>Frau<BR>Beispielpatientin<BR>Straße XY/AB<BR>PLZ Ort<BR><BR> Patient(in): NN_0000-0001 VN_0000-0001 | geb. 15.03.1959<BR><BR> Fall: 20150610<BR><BR> Aufnahme am 10/04/2016 | Entlassen am 15/04/20156<BR><BR>Diagnosen:<BR>Mammakarzinom links<BR>Histologie: invasiv duktales Mammakarzinom, Hormonrezeptor positiv, Her2neu negativ, Ki67-Proliferationsrate 20%, T2 N0 M0 V0 G2<BR>St.p. Hypertensiver Krise 06/2015<BR>GERD II°<BR>SLE<BR>Diab. Mell. II<BR>Art. HTN<BR>HLP<BR><BR>Allergien:<BR>KM-Allergie (Übelkeit, Schwindel, Erbrechen)<BR><BR>Sehr geehrte Damen und Herren!<BR><BR>Wir berichten über den Aufenthalt von Frau NN_0000-0001, geb. am 15.03.1959, welche bei<BR>einer auffälligen Mammographie zur onkologischen Abklärung an unserer Abteilung<BR>aufgenommen war.<BR><BR>Anamnese:<BR>Im Rahmen einer Vorsorge-Mammographie Anfang April 2016 wurde bei der Patientin eine<BR>suspekte Läsion in der linken Brust gefunden. Die Patientin kommt nun zur sonographisch und histologischen Abklärung.<BR><BR>Größe: 170 cm<BR>Gewicht: 66 kg<BR>BMI: 22,8<BR><BR>Körpertemperatur: 36.4°C<BR>EKG: HF 90/min, Normaltyp<BR><BR>Erhobene Befunde:<BR><BR>Labor:<BR>Gem. Beilage.<BR><BR>Ultraschalluntersuchung der linken Brust vom 12.04.2016:<BR>Zusammenfassung:<BR>Bekannte suspekte Läsion der linken Brust mit maximaler Ausdehnung 3 x 1,5 cm. BI-RADS V, ACR II. Es erfolgte die ultraschallgezielte Biopsie von 5 Stanzzylindern. Keine Komplikationen.<BR>Sonographisch zeigen sich axillär keine vergrößerten Lymphknoten.<BR><BR>Histologie vom 13.04.2016:<BR>Zusammenfassung:<BR>Stanzbiopsie der linken Brust mit Formationen eines invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2). Hormonrezeptor positiv, Her2neu negativ, Ki67-Proliferationsrate 20%<BR><BR>Therapie und Verlauf:<BR>Frau NN_0000-0001 wurde am 12.04.2016 in gutem Allgemeinzustand auf der Station aufgenommen. Im Befund einer extern durchgeführten Mammogarphie vom 03. April 2016 wurde eine suspekte Läsion in der linken Brust beschrieben, weshalb eine sonographische und histologische Abklärung an der hiesigen Station vorgenommen wurde.<BR>Durch die Sonographie und die Histologie der Stanzbiopsie konnte die Diagnose eines invasiv duktalen Mammakarzinoms gestellt werden. Die Patientin wurde im Tumorboard besprochen und eine Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen.<BR>Die Patientin wurde über ihre Diagnose und Therapiemöglichkeiten aufgeklärt und wird durch ihre Familie gut unterstützt. Somit konnte Frau NN_0000-0001 am 15.04.2016 nach Hause entlassen werden.<BR><BR>Weiteres Procedere:<BR>Quadrantenresektion + IORT am 16.05.2016 an der chirurgischen Abteilung des Beispielkrankenhauses<BR><BR>Entlassungsmedikation:<BR>Applikation mo mi ab na Einheit Info<BR>Thrombo ASS 100mg oral 1 0 0 0 ST<BR>Glucophage 1000mg oral 1 1 1 0 ST<BR>Zocor 20mg oral 0 0 1 0 ST<BR>Blopress 16mg oral 1 0 1 0 ST<BR>Oleovit D3 Tropfen oral 2 0 2 0 Tropfen<BR>Alendronat 70mg oral 1x/Woche 1 Tabl.<BR>Actos 30mg oral 0 1 0 0 ST<BR>Byetta Injektionslösung 5 mcg s.c. 1 0 1 0 Dosen<BR>Mit freundlichen Grüßen<BR><BR> OA XYZ Prim. Dr. X.<BR><BR>Laborbefund<BR><BR>NN_0000-0001 VN_0000-0001 | geb. 15.03.1959<BR><BR> Parameter<BR>Fettgedruckte Werte außerhalb des Referenzbereichs. Ausgangswert Kontrollwert Grenzwert Einheit"
+}

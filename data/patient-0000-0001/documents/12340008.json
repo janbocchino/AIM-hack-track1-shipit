@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "12340008",
+    "title": "Radiologischer Befund",
+    "version": "1",
+    "date": "2015-06-11",
+    "type": "Endosonographie",
+    "group": "Bildgebung",
+    "division": "Bildgebung",
+    "hospital": "Beispielkrankenhaus",
+    "department": "Institut für Radiologie",
+    "admission": {
+      "id": "0000-0003",
+      "type": "inpatient",
+      "admission": {
+        "date": "2015-06-12",
+        "time": "11:02:00"
+      },
+      "discharge": {
+        "date": "2015-06-13",
+        "time": "10:35:00"
+      }
+    }
+  },
+  "text": "Frau<BR>Beispielpatientin<BR>Straße XY/AB<BR>PLZ Ort<BR><BR> Patient(in): NN_0000-0001 VN_0000-0001 | geb. 15.03.1959<BR><BR> Fall: 20150610<BR><BR>Anamnese: hypertensive Krise<BR>Fragestellung: Carotisstenose?<BR>Zuweisung freigegeben durch / Tel.: Arzt / 0032<BR><BR>OrtXX, am 11.06.2015<BR><BR>Radiologischer Befund<BR><BR>Folgende Untersuchungen wurden durchgeführt:<BR><BR> US Hirnversorgende Arterien 11.06.2015 10:42<BR><BR>Doppler/Duplex Sonographie der hirnversorgenden Halsarterien:<BR>Links findet sich in der A. carotis interna eine abgangsnahe Flussgeschwindigkeit von 150 cm/sek duch Einengung durch Kalkplaques sowie Verdickung des Intima media Komplexes. zu etwa 60%. Auf der rechten Seite finden sich auf Höhe des Carotisbulbus und der Carotisbifurkation minimalste verkalkte Plaquebildungen ohne hämodynamische Wirksamkeit.<BR><BR>Die Arteria vertebralis beidseits normkalibriert und orthograd durchströmt.<BR><BR>Gesamtbeurteilung<BR>Maximal 60%ige Abgangsstenose der Arteria carotis interna links.<BR><BR>Befund: Dr. Arzt<BR>Vidiert: Dr. Arzt"
+}

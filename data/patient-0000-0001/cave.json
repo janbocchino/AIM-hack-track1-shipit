@@ -1,0 +1,12 @@
+{
+  "diagnoses": [],
+  "adverseReactions": [
+    {
+      "text": "Arzneimittel-Allergie",
+      "conceptIds": [
+        "a_wI1APfw9cNdRc-dRY28KYlK727A_eQbyQeqs5tVlEThWlwgwbHy0EKM",
+        "a_RTSE8NgLsx4IENkV6tX9NlLIiiA_eQbyQeqs5tVlEThWlwgwbHy0EKM"
+      ]
+    }
+  ]
+}

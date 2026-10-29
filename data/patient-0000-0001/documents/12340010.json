@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "12340010",
+    "title": "24h-RR-Messung",
+    "version": "1",
+    "date": "2015-06-13",
+    "type": "Sonstiger Befund",
+    "group": "Befund",
+    "division": "Innere Medizin - Kardiologie, Angiologie",
+    "hospital": "Beispielkrankenhaus",
+    "department": "4. Medizinische Abteilung mit Kardiologie",
+    "admission": {
+      "id": "0000-0003",
+      "type": "inpatient",
+      "admission": {
+        "date": "2015-06-12",
+        "time": "11:02:00"
+      },
+      "discharge": {
+        "date": "2015-06-13",
+        "time": "10:35:00"
+      }
+    }
+  },
+  "text": "Frau<BR>Beispielpatientin<BR>Straße XY/AB<BR>PLZ Ort<BR><BR>OrtXX, am 13.06.2015<BR><BR>24h-RR-Messung<BR><BR>Beispielpatientin, geb 15.03.1959<BR>Patienten-ID: 0000-0001<BR>Fallzahl: 20150610<BR><BR>Indikation: hypertensive Krise<BR>Beginn: 12.06.201511:02<BR><BR> Ende: 13.06.2015 10:35<BR><BR>Interpretation:<BR>24-Mittelwert: 135/84 mmHg<BR>Tagesmittelwert: 140/88 mmHg<BR>Nachtmittelwert: 128/80<BR>Befund: Vor allem in den Morgenstunden erhöhter Blutdruck bis 170/85 mmHg,<BR><BR>befundet: Dr. Arzt<BR>vidiert: Dr. Arzt"
+}

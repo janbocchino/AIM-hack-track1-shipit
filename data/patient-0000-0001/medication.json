@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "status": []
+  },
+  "values": [
+    {
+      "id": "m_D7JfHmwfh1kSNL-JIOsv_xtshao",
+      "name": "ALIMENTÄRES SYSTEM UND STOFFWECHSEL",
+      "values": [
+        {
+          "id": "m_sZSo-LHwrvH7A_pbN4t2glN5lQE",
+          "name": "Antidiabetika",
+          "values": [
+            {
+              "id": "m_EZd8g2jiu_nmJ3ZvtVAuYyotI6E_X_A10BG03",
+              "name": "Pioglitazon",
+              "code": {
+                "catalog": "ATC",
+                "value": "A10BG03",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "m_wX6CxXT6Zpn0tGGsVbRsBbNVwew_YwEaP-jILj3nCiMBR530a3Gyn7Q",
+                  "name": "Actos 30mg   oral   0   1   0   0   ST",
+                  "text": "Actos 30mg   oral   0   1   0   0   ST",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Pioglitazon",
+                  "drug": "Actos",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "m_XvzGSqFIE74N_NscUUSh_-soyyY_YwEaP-jILj3nCiMBR530a3Gyn7Q",
+                  "name": "Actos 30mg   oral   0   1   0   0   ST",
+                  "text": "Actos 30mg   oral   0   1   0   0   ST",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Pioglitazon",
+                  "drug": "Actos",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m_lWSECHxlEvAxxWTmL_vGV5ipbAw_X_A10BJ01",
+              "name": "Exenatid",
+              "code": {
+                "catalog": "ATC",
+                "value": "A10BJ01",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "m_ZX_wUOoqat2LhW92My2aaxmOPNc_gvAUsohqm0FAmPED_jabHVcC5oY",
+                  "name": "Byetta Injektionslösung 5 mcg   s.c.   1   0   1   0   Dosen",
+                  "text": "Byetta Injektionslösung 5 mcg   s.c.   1   0   1   0   Dosen",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Exenatid",
+                  "drug": "Byetta",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                },
+                {
+                  "id": "m_OLL3-Plp4Xte8Mef8nV06nPUkQY_gvAUsohqm0FAmPED_jabHVcC5oY",
+                  "name": "Byetta Injektionslösung 5mcg 0,5   s.c.   1   0   1   0",
+                  "text": "Byetta Injektionslösung 5mcg 0,5   s.c.   1   0   1   0",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Exenatid",
+                  "drug": "Byetta",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m_pbAeMa-HrDOKjK3SekxAOSmSKWI_X_A10BA02",
+              "name": "Metformin",
+              "code": {
+                "catalog": "ATC",
+                "value": "A10BA02",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "m_QdanvsAjKjuZdnnUsnFxPZZ4Wes_yDMl6hcE4qXl5FbJKL3N8ylzPNs",
+                  "name": "Glucophage 1000mg   oral   1   1   1   0   ST",
+                  "text": "Glucophage 1000mg   oral   1   1   1   0   ST",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Metformin",
+                  "drug": "Glucophage",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "m_ZTFVvRxiOjsGxT1c93cmYaLht_s_yDMl6hcE4qXl5FbJKL3N8ylzPNs",
+                  "name": "Glucophage 1000mg   oral   1   1   1   0   ST",
+                  "text": "Glucophage 1000mg   oral   1   1   1   0   ST",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Metformin",
+                  "drug": "Glucophage",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m_G9DUnJiyyYNYah7wbdtDa5VcSUE",
+          "name": "Vitamine",
+          "values": [
+            {
+              "id": "m_78ZiARXcQQRj32R8gy8T9GSN2Q0_X_A11CC05",
+              "name": "Vitamin D3",
+              "code": {
+                "catalog": "ATC",
+                "value": "A11CC05",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "m_ngzkVY9bqfoa4xE_EJxCRzNHXZ4_TvwPH5EsjD7pHELfrNAUz4uilFg",
+                  "name": "Oleovit D3 Tropfen   oral   2   0   2   0   Tropfen",
+                  "text": "Oleovit D3 Tropfen   oral   2   0   2   0   Tropfen",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Vitamin D3",
+                  "drug": "Oleovit D3",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "m_K-neqbNEt2bKtRFhJepqvDJEbtk_TvwPH5EsjD7pHELfrNAUz4uilFg",
+                  "name": "Oleovit D3 Tropfen   oral   2   0   2   0   Tropfen",
+                  "text": "Oleovit D3 Tropfen   oral   2   0   2   0   Tropfen",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Vitamin D3",
+                  "drug": "Oleovit D3",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m_26LUfHNn_lGACCDpjzYMO30Z1wY",
+      "name": "BLUT UND BLUT BILDENDE ORGANE",
+      "values": [
+        {
+          "id": "m_FlZlO15oB1wm4QqmJDUPY3aNte8",
+          "name": "Antithrombotische Mittel",
+          "values": [
+            {
+              "id": "m_XG1tlwJaOBGf54C9nDENM3DSpZw_X_B01AC06",
+              "name": "Acetylsalicylsäure",
+              "code": {
+                "catalog": "ATC",
+                "value": "B01AC06",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "m_3RZhj8ZiP5fZuSO9MPqqb9VwTIU_d-36TjUesUiGinwsHq3-rhATjvM",
+                  "name": "Thrombo ASS 100mg",
+                  "text": "<SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"Thrombos\"],\"type\":\"spellcorrection\"}]'>Thrombo</SPAN> ASS 100mg",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Acetylsalicylsäure",
+                  "drug": "Thrombo ASS",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m_Yy2n8T31f-Ps82lLvB9OKN2bmnQ_X_B01AC06",
+              "name": "Acetylsalicylsäure",
+              "code": {
+                "catalog": "ATC",
+                "value": "B01AC06",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "m_Y0nDRbHsTEMHO2rKWm_eQlozZyc_d-36TjUesUiGinwsHq3-rhATjvM",
+                  "name": "Thrombo ASS 100 mg 1-0-0.",
+                  "text": "<SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"Thrombos\"],\"type\":\"spellcorrection\"}]'>Thrombo</SPAN> ASS 100 mg 1-0-0.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Acetylsalicylsäure",
+                  "drug": "Thrombo ASS",
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "m_tqSh82YdUCgwu8k731FrhNLrUHA_d-36TjUesUiGinwsHq3-rhATjvM",
+                  "name": "Thrombo ASS 100mg   oral   1   0   0   0   ST",
+                  "text": "<SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"Thrombos\"],\"type\":\"spellcorrection\"}]'>Thrombo</SPAN> ASS 100mg   oral   1   0   0   0   ST",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Acetylsalicylsäure",
+                  "drug": "Thrombo ASS",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "m_0HdaTF8MRuRctMgi1WicXp2T3GA_d-36TjUesUiGinwsHq3-rhATjvM",
+                  "name": "Thrombo ASS 100mg   oral   1   0   0   0   ST",
+                  "text": "<SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"Thrombos\"],\"type\":\"spellcorrection\"}]'>Thrombo</SPAN> ASS 100mg   oral   1   0   0   0   ST",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Acetylsalicylsäure",
+                  "drug": "Thrombo ASS",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m_g_HhFVp_S4S9HnZZLGFUlAIkLhA",
+      "name": "KARDIOVASKULÄRES SYSTEM",
+      "values": [
+        {
+          "id": "m_MuDNWLuGL4j-hX1sYHr85xsEoCE",
+          "name": "Herztherapie",
+          "values": [
+            {
+              "id": "m_0P0_pWguIY0DMQ_6nJXUW2IqRD4_X_C01DA02",
+              "name": "Nitroglycerin",
+              "code": {
+                "catalog": "ATC",
+                "value": "C01DA02",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "m_CVhJCimMuZN08DMGHZjYAlejR9c_C6Kdg9WJZney125QSM_nsZxau3A",
+                  "name": "2 Hübe Nitro-Spray",
+                  "text": "2 Hübe Nitro-Spray",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Nitroglycerin",
+                  "drug": "Nitroglycerin",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m_8wk9G07hkwa7F-LcS3wXhBMTQA8_X_C01DA02",
+              "name": "Nitroglycerin",
+              "code": {
+                "catalog": "ATC",
+                "value": "C01DA02",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "m_kwIoeS_y5d0LVsD_ZAGfn_YbDzw_C6Kdg9WJZney125QSM_nsZxau3A",
+                  "name": "Nitroglycerin",
+                  "text": "Nitroglycerin",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Nitroglycerin",
+                  "drug": "Nitroglycerin",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m_lrGa9LSxrNwyJ0GUUENaPF__Rsk",
+          "name": "Mittel mit Wirkung auf das Renin-Angiotensin-System",
+          "values": [
+            {
+              "id": "m_WSVBJWz7Fbwmlz7T66RJ_tOi7nY_X_C09CA06",
+              "name": "Candesartan",
+              "code": {
+                "catalog": "ATC",
+                "value": "C09CA06",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "m_qBbeR3f6r2SMd0QDTtdxnUbs_tM_Avj4HIdSCdvweNT3LzB3Wrs7JbQ",
+                  "name": "Blopress 16mg   oral   1   0   1   0   ST",
+                  "text": "Blopress 16mg   oral   1   0   1   0   ST",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Candesartan",
+                  "drug": "Blopress",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                },
+                {
+                  "id": "m_kBTEEasq4RabV6ktlHWdT_UiZbA_Avj4HIdSCdvweNT3LzB3Wrs7JbQ",
+                  "name": "Blopress 16mg   oral   1   0   1/2   0   ST",
+                  "text": "Blopress 16mg   oral   1   0   1/2   0   ST",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Candesartan",
+                  "drug": "Blopress",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "m_EuWTb7vMx0QbgZzqmVPo68IYKOs_Avj4HIdSCdvweNT3LzB3Wrs7JbQ",
+                  "name": "Blopress 16mg.",
+                  "text": "Blopress 16mg.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Candesartan",
+                  "drug": "Blopress",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m_O-rb1-TJnzoejJjOwr2qs3I1wAQ",
+          "name": "Mittel, die den Lipidstoffwechsel beeinflussen",
+          "values": [
+            {
+              "id": "m_ZxqiDM8Lm4I8gsc9jkQEoIS9qG8_X_C10AA01",
+              "name": "Simvastatin",
+              "code": {
+                "catalog": "ATC",
+                "value": "C10AA01",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "m_dETFhCZ2oK5YFAjL108Gdpnb37Y_brUAPQn9YRbwnOObxzZWmhinpKU",
+                  "name": "Zocor 20mg   oral   0   0   1   0   ST",
+                  "text": "Zocor 20mg   oral   0   0   1   0   ST",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Simvastatin",
+                  "drug": "Zocor",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "m_Bb-VVobQWRxzbgqk59h3J3vgB1s_brUAPQn9YRbwnOObxzZWmhinpKU",
+                  "name": "Zocor 20mg   oral   0   0   1   0   ST",
+                  "text": "Zocor 20mg   oral   0   0   1   0   ST",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Simvastatin",
+                  "drug": "Zocor",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m_b-bbgcHce9E824KXbPArZ2WQKZg",
+      "name": "MUSKEL- UND SKELETTSYSTEM",
+      "values": [
+        {
+          "id": "m_6A_DbO8oT3eJNylCSADVzqAH-zE",
+          "name": "Mittel zur Behandlung von Knochenerkrankungen",
+          "values": [
+            {
+              "id": "m_2pGgMq_BN7EhdG5sNomEFI4xFKw_X_M05BA04",
+              "name": "Alendronsäure",
+              "code": {
+                "catalog": "ATC",
+                "value": "M05BA04",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "m_8SkF4jp_dRKsZui7gjDQx1yieek_d4wgHmbDkRCIiBPHVk7qqqcLKA4",
+                  "name": "Alendronat 70mg   oral             1x/Woche 1 Tabl.",
+                  "text": "Alendronat 70mg   oral             1x/Woche 1 Tabl.",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "agent": "Alendronsäure",
+                  "drug": "Alendronat",
+                  "documentIds": [
+                    "12340018"
+                  ]
+                },
+                {
+                  "id": "m__GadvJl163VhOCHgXl-22f0W7os_d4wgHmbDkRCIiBPHVk7qqqcLKA4",
+                  "name": "Alendronat 70mg   oral           ST   1x/Woche 1 Tabl.",
+                  "text": "Alendronat 70mg   oral           ST   1x/Woche 1 Tabl.",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Alendronsäure",
+                  "drug": "Alendronat",
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m_2SFkLlCxt5M5nopFffxHAAqNLQo",
+      "name": "SONSTIGES",
+      "default": true,
+      "values": [
+        {
+          "id": "m_2SFkLlCxt5M5nopFffxHAAqNLQo",
+          "name": "Sonstiges",
+          "default": true,
+          "values": [
+            {
+              "id": "m_3Nsz96MSeplmaXlf3YMbizsnKx0_X",
+              "name": "Thrombozytenaggregationshemmer",
+              "values": [
+                {
+                  "id": "m_ao7tgVJZVOTjp9nbWZiHwqTRKbs_HV7dAru43_W3h8DWOYv-BnpqusU",
+                  "name": "Thrombozytenaggregations",
+                  "text": "Thrombozytenaggregations",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "agent": "Thrombozytenaggregationshemmer",
+                  "drug": "Thrombozytenaggregationshemmer",
+                  "documentIds": [
+                    "12340011"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

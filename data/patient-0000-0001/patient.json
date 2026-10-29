@@ -1,0 +1,19 @@
+{
+  "id": "0000-0001",
+  "name": "Anna Musterfrau",
+  "sex": "female",
+  "age": 67,
+  "dateOfBirth": "1959-03-15",
+  "latestAdmission": {
+    "id": "0000-0005",
+    "type": "inpatient",
+    "admission": {
+      "date": "2016-04-10",
+      "time": "08:42:00"
+    },
+    "discharge": {
+      "date": "2016-04-15",
+      "time": "12:40:00"
+    }
+  }
+}

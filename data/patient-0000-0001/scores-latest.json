@@ -1,0 +1,190 @@
+{
+  "scores": [
+    {
+      "name": "BIRADS",
+      "values": [
+        {
+          "id": "w___Mgw8iSTv-zJLPC1oGkjjrTao8",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "5",
+          "documentIds": [
+            "12340018"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blutdruck",
+      "unit": "mmHg",
+      "values": [
+        {
+          "id": "w_eIJUhcvAlm93QmJe1JmYbCOWzSs",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "145|88",
+          "documentIds": [
+            "12340014"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Body-Mass-Index",
+      "unit": "kg/m2",
+      "values": [
+        {
+          "id": "w_9gR_zpvYxz75qfJG4YvtcvT07rk",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "22,8",
+          "documentIds": [
+            "12340018"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ejektionsfraktion",
+      "unit": "%",
+      "values": [
+        {
+          "id": "w_75QUFstCI9hKNuadMt0lA7uBi5Y",
+          "date": {
+            "value": "2015-06-xx",
+            "type": "document"
+          },
+          "value": "60",
+          "documentIds": [
+            "12340012"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gewicht",
+      "unit": "kg",
+      "values": [
+        {
+          "id": "w_BjYtzW7FFyRvRBPaKgI77Pp2luE",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "66",
+          "documentIds": [
+            "12340018"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Größe",
+      "unit": "m",
+      "values": [
+        {
+          "id": "w_E6CyjCUTIehrhNKLPOaNM7XGazM",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "1,7",
+          "documentIds": [
+            "12340018"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HbA1c",
+      "unit": "%",
+      "values": [
+        {
+          "id": "w_rIyVo7b1XjAZ06fDQZgHDWYkB0A",
+          "date": {
+            "value": "2015-06-xx",
+            "type": "document"
+          },
+          "value": "6,4",
+          "documentIds": [
+            "12340012"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Herzfrequenz",
+      "unit": "/min",
+      "values": [
+        {
+          "id": "w_8DYQjgs5DoM4ZNY11X4lSuR1EXo",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "90",
+          "documentIds": [
+            "12340018"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Körpertemperatur",
+      "unit": "°C",
+      "values": [
+        {
+          "id": "w_os0yl6pqC9zTxcpm8_mnHOPpKW0",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "36,4",
+          "documentIds": [
+            "12340018"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mini Mental State Examination",
+      "unit": "Punkte",
+      "values": [
+        {
+          "id": "w_xH4I1In0NKJhpavk1iQjb73U0SA",
+          "date": {
+            "value": "2016-04-xx",
+            "type": "document"
+          },
+          "value": "30",
+          "documentIds": [
+            "12340014"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pulmonalarterieller Druck",
+      "unit": "mmHg",
+      "values": [
+        {
+          "id": "w_4aVi4LPZ0vmI92-s-PESl733vLo",
+          "date": {
+            "value": "2015-06-xx",
+            "type": "document"
+          },
+          "value": "22",
+          "documentIds": [
+            "12340012"
+          ]
+        }
+      ]
+    }
+  ]
+}

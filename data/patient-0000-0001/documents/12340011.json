@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "12340011",
+    "title": "Konsil für Augenheilkunde",
+    "version": "1",
+    "date": "2015-06-13",
+    "type": "Augenkonsil",
+    "group": "Konsil",
+    "division": "Augenheilkunde und Optometrie",
+    "hospital": "Beispielkrankenhaus",
+    "department": "Augenabteilung",
+    "admission": {
+      "id": "0000-0003",
+      "type": "inpatient",
+      "admission": {
+        "date": "2015-06-12",
+        "time": "11:02:00"
+      },
+      "discharge": {
+        "date": "2015-06-13",
+        "time": "10:35:00"
+      }
+    }
+  },
+  "text": "Frau<BR>Beispielpatientin<BR>Straße XY/AB<BR>PLZ Ort<BR><BR>OrtXX, am 13.06.2015<BR><BR>Konsil für Augenheilkunde<BR><BR>Beispielpatientin, geb 15.03.1959<BR>Patienten-ID: 0000-0001<BR>Fallzahl: 20150610<BR><BR>Indikation: hypertensive Krise mit vorübergehendem Schwindel und Sehbeeinträchtigung Auge li., morgendliche RR-Spitzen bis 170/85 mmHg, 60% Karotisstenose links, Pat. hat bekannten DMII (HbA1c 6,4%)<BR>Fragestellung: hypertensive Retinopathie? ZAV? Amaurosis fugax?<BR><BR>Befundzusammenfassung:<BR>Einweisungsdiagnose wg. Hypertensiver Krise mit Schwindel und transienter Sehschwäche am li. Auge (mehere Sekunden dauernd).<BR>Gut eingestellter Diabetes mellitus Typ II mit HbA1c von 6,4%, im Labor keine Anzeichen für ein entzündliches oder autoimmunbedingtes Geschehen.<BR>Äußere Augenabschnitte: bds. unauffällig, Augenober- und -unterlid zeigen sich gut durchblutet, äußere Verletzungen, Fremdkörper oder Raumforderungen sind nicht erkennbar.<BR>Fundus: Fundus hypertonicus mit dezentem Papillenödem li &gt; re. Vereinzelte Hollenhorst-Plaques bds. Weiße, dezent ödematöse Retina superior der Fovea linkes Auge. Die periphere Retina bds. flach und intakt. Auskultation der Karotiden zeigt ein schwaches Strömungsgeräusch über der linken Karotis.<BR>Diagnose: Amaurosis fugax li. Auge mit 60% Stenose der A. Carotis sin., Fundus hypertonicus bds. Therapie: Thrombozytenaggregationshemmung mit Thrombo ASS 100 mg 1-0-0. Regelmäßige augenärztliche Kontrollen empfohlen.<BR>befundet: Dr. Arzt<BR>vidiert: Dr. Arzt"
+}

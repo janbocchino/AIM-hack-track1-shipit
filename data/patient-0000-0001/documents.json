@@ -1,0 +1,188 @@
+{
+  "documents": [
+    {
+      "id": "12340010",
+      "title": "24h-RR-Messung",
+      "version": "1",
+      "date": "2015-06-13",
+      "type": "Sonstiger Befund",
+      "group": "Befund",
+      "division": "Innere Medizin - Kardiologie, Angiologie",
+      "hospital": "Beispielkrankenhaus",
+      "department": "4. Medizinische Abteilung mit Kardiologie",
+      "admission": {
+        "id": "0000-0003",
+        "type": "inpatient",
+        "admission": {
+          "date": "2015-06-12",
+          "time": "11:02:00"
+        },
+        "discharge": {
+          "date": "2015-06-13",
+          "time": "10:35:00"
+        }
+      }
+    },
+    {
+      "id": "12340012",
+      "title": "Stat. Patientenbrief (Interne)",
+      "version": "1",
+      "date": "2015-06-28",
+      "type": "Arztbrief(Inter.)",
+      "group": "Patientenbrief",
+      "division": "Innere Medizin - Kardiologie, Angiologie",
+      "hospital": "Beispielkrankenhaus",
+      "department": "4. Medizinische Abteilung mit Kardiologie",
+      "admission": {
+        "id": "0000-0003",
+        "type": "inpatient",
+        "admission": {
+          "date": "2015-06-12",
+          "time": "11:02:00"
+        },
+        "discharge": {
+          "date": "2015-06-13",
+          "time": "10:35:00"
+        }
+      }
+    },
+    {
+      "id": "12340009",
+      "title": "Langzeit-EKG",
+      "version": "1",
+      "date": "2015-06-12",
+      "type": "Sonstiger Befund",
+      "group": "Befund",
+      "division": "Innere Medizin - Kardiologie, Angiologie",
+      "hospital": "Beispielkrankenhaus",
+      "department": "4. Medizinische Abteilung mit Kardiologie",
+      "admission": {
+        "id": "0000-0003",
+        "type": "inpatient",
+        "admission": {
+          "date": "2015-06-12",
+          "time": "11:02:00"
+        },
+        "discharge": {
+          "date": "2015-06-13",
+          "time": "10:35:00"
+        }
+      }
+    },
+    {
+      "id": "12340011",
+      "title": "Konsil für Augenheilkunde",
+      "version": "1",
+      "date": "2015-06-13",
+      "type": "Augenkonsil",
+      "group": "Konsil",
+      "division": "Augenheilkunde und Optometrie",
+      "hospital": "Beispielkrankenhaus",
+      "department": "Augenabteilung",
+      "admission": {
+        "id": "0000-0003",
+        "type": "inpatient",
+        "admission": {
+          "date": "2015-06-12",
+          "time": "11:02:00"
+        },
+        "discharge": {
+          "date": "2015-06-13",
+          "time": "10:35:00"
+        }
+      }
+    },
+    {
+      "id": "12340008",
+      "title": "Radiologischer Befund",
+      "version": "1",
+      "date": "2015-06-11",
+      "type": "Endosonographie",
+      "group": "Bildgebung",
+      "division": "Bildgebung",
+      "hospital": "Beispielkrankenhaus",
+      "department": "Institut für Radiologie",
+      "admission": {
+        "id": "0000-0003",
+        "type": "inpatient",
+        "admission": {
+          "date": "2015-06-12",
+          "time": "11:02:00"
+        },
+        "discharge": {
+          "date": "2015-06-13",
+          "time": "10:35:00"
+        }
+      }
+    },
+    {
+      "id": "12340014",
+      "title": "Ambulanter Patientenbrief",
+      "version": "1",
+      "date": "2016-04-05",
+      "type": "Ambulanzbrief(Inter.)",
+      "group": "Patientenbrief ambulant",
+      "division": "Onkologie/Hämatologie/Strahlentherapie",
+      "hospital": "Beispielkrankenhaus",
+      "department": "3. Medizinische Abteilung mit Onkologie",
+      "admission": {
+        "id": "0000-0004",
+        "type": "outpatient",
+        "admission": {
+          "date": "2016-04-04",
+          "time": "10:02:00"
+        },
+        "discharge": {
+          "date": "2016-04-04",
+          "time": "11:39:00"
+        }
+      }
+    },
+    {
+      "id": "12340018",
+      "title": "Stat. Patientenbrief (Interne)",
+      "version": "1",
+      "date": "2016-04-15",
+      "type": "Arztbrief(Inter.)",
+      "group": "Patientenbrief",
+      "division": "Onkologie/Hämatologie/Strahlentherapie",
+      "hospital": "Beispielkrankenhaus",
+      "department": "3. Medizinische Abteilung mit Onkologie",
+      "admission": {
+        "id": "0000-0005",
+        "type": "inpatient",
+        "admission": {
+          "date": "2016-04-10",
+          "time": "08:42:00"
+        },
+        "discharge": {
+          "date": "2016-04-15",
+          "time": "12:40:00"
+        }
+      }
+    },
+    {
+      "id": "12340016",
+      "title": "Histologie-Befund",
+      "version": "1",
+      "date": "2016-04-13",
+      "type": "HistoBefund",
+      "group": "Befund",
+      "division": "Sonstige",
+      "hospital": "Beispielkrankenhaus",
+      "department": "Pathologisches Institut",
+      "admission": {
+        "id": "0000-0005",
+        "type": "inpatient",
+        "admission": {
+          "date": "2016-04-10",
+          "time": "08:42:00"
+        },
+        "discharge": {
+          "date": "2016-04-15",
+          "time": "12:40:00"
+        }
+      }
+    }
+  ]
+}

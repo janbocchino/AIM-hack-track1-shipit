@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "12340014",
+    "title": "Ambulanter Patientenbrief",
+    "version": "1",
+    "date": "2016-04-05",
+    "type": "Ambulanzbrief(Inter.)",
+    "group": "Patientenbrief ambulant",
+    "division": "Onkologie/Hämatologie/Strahlentherapie",
+    "hospital": "Beispielkrankenhaus",
+    "department": "3. Medizinische Abteilung mit Onkologie",
+    "admission": {
+      "id": "0000-0004",
+      "type": "outpatient",
+      "admission": {
+        "date": "2016-04-04",
+        "time": "10:02:00"
+      },
+      "discharge": {
+        "date": "2016-04-04",
+        "time": "11:39:00"
+      }
+    }
+  },
+  "text": "Frau<BR>Beispielpatientin<BR>Straße XY/AB<BR>PLZ Ort<BR><BR> Patient(in): NN_0000-0001 VN_0000-0001 | geb. 15.03.1959<BR><BR> Fall: 20160504<BR><BR>XXX, am 05.04.2016<BR><BR>Ambulanter Patientenbrief<BR><BR>Wir berichten über den ambulanten Besuch von Frau Beispielpatientin, geb 15.03.1959, welche am 04.04.2016 an unserer Abteilung in Behandlung war.<BR><BR>Diagnosen:<BR>Vd.a. Mamma-Ca li. bei auffälliger Mammographie<BR>Gastroösophageale Refluxkrankheit, Grad II<BR>Systemischer Lupus erythematodes<BR>Diabetes Mellitus Typ II<BR>Art. Hypertonie mit Z.n. Hypertensive Krise 06/2015<BR>Vitamin-D-Mangel mit Osteoporose<BR>Hyperlipidämie<BR>Hypercholesterinämie<BR>Schlafapnoe<BR>St.p. CHE<BR><BR>Vitalparameter:<BR>Größe: 171 cm<BR>Gewicht: 67 kg<BR>BMI: 29<BR>Körpertemperatur: 36.9°C<BR><BR>Befunde:<BR>RR: 145/88 mmHg<BR>HF: 83/min<BR>MMSE: 30/30<BR><BR>Verlauf:<BR>Die Patientin kommt mit einem externen Mammographiebefund in dem eine<BR>malignomsuspekte Läsion in der linken Brust beschrieben wurde. Die Ausdehnung des Tumors<BR><BR>wurde als 3cm beschrieben. Im Tastbefund war ein Knoten im äußeren oberen Quadranten<BR>tastbar, sowie vergrößerte Lymphknoten rechts axillär.<BR>Familienanamnestisch ist keine Vorbelastung bekannt.<BR><BR>Procedere:<BR>Stationäre Aufnahme auf Abteilung XX für den 10.04.2016 terminisiert. Im Rahmen des Aufenthalts ist eine Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant. Das nachfolgende Procedere wird im Tumorboard besprochen.<BR><BR>Mit kollegialen Grüßen,<BR><BR>ARZT XX"
+}

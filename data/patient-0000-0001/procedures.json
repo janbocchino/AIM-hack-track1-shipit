@@ -1,0 +1,1428 @@
+{
+  "metadata": {
+    "status": [
+      "positive",
+      "statuspost",
+      "recommended"
+    ]
+  },
+  "values": [
+    {
+      "id": "p_xhBQKI-iC9lFYfHAPZxibAcdrj0",
+      "name": "DIAGNOSTIK",
+      "values": [
+        {
+          "id": "p_xA-PDHbVf1bET9NLJ8AsMK7hiq4",
+          "name": "Andere Diagnostik und Therapie - Herz und Kreislaufsystem",
+          "values": [
+            {
+              "id": "p_YBt7-rcWZzuTmQePgZES16GZBu4_P_DL520",
+              "name": "24h-RR-Messung",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "DL520",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_HHPNrhScwqTxtMCJ896U7K-xPOA",
+                  "name": "24h-RR",
+                  "text": "24h-RR",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "p_6pLZx5kp9KbW50UmD_239lkWizg",
+                  "name": "24h-RR-Messung",
+                  "text": "24h-RR-Messung",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340010"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_fI8S_S9f1RZGMmKnpR5_-Qumqms_P_DE520",
+              "name": "Langzeit-EKG",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "DE520",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_2X344HMfvtwaFAjcRg5STbWbIwQ",
+                  "name": "LZ-EKG",
+                  "text": "LZ-EKG",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340009"
+                  ]
+                },
+                {
+                  "id": "p_PZZrehslSO5rSyyRvthVktdiQ-o",
+                  "name": "LZ-EKG",
+                  "text": "LZ-EKG",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "p_XnVLqAdLok8K2JGPCh_4qLCNEec",
+                  "name": "Langzeit-EKG",
+                  "text": "Langzeit-EKG",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340009"
+                  ]
+                },
+                {
+                  "id": "p_Zk2tTWGPeL_5jIqkgxVWx1cjXMo",
+                  "name": "Langzeit-EKG",
+                  "text": "Langzeit-EKG",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_x4iwMfMEg68ohq23kg3UE66t-08_P_DE510",
+              "name": "EKG",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "DE510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_vVc58qrZAcsFO3YpeQMabpjdxHc",
+                  "name": "EKG",
+                  "text": "EKG",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "p_tSGg9RY7_PILQDQNwe_YKPiUyLg",
+                  "name": "EKG",
+                  "text": "EKG",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_vhT8PmR5fAppBaFEqNjovxgnjKk",
+          "name": "Andere Diagnostik und Therapie - Mamma",
+          "values": [
+            {
+              "id": "p_BWKgcKZ206NwN6eDdDmqEml552w_P_QE520",
+              "name": "Vorsorge-Mammographie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE520",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_D5KzJDwCRTgUHuduSGYYz3xK488",
+                  "name": "Vorsorge-Mammographie",
+                  "text": "Vorsorge-Mammographie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_ELM9Brm-hD7_ebuX6Go4HS_eoLA_P_QE520",
+              "name": "Mammographie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE520",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_P7_emDDzrQuIJq-jeFSVllE6hfw",
+                  "name": "Mammographie",
+                  "text": "Mammographie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p__7W0JejqMKIMkwhqJmvUZfIIXXY_P_QE520",
+              "name": "Mammographie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE520",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_aaI9RPXTAtX5cXdxWlg5_-ZKIpU",
+                  "name": "Mammographie",
+                  "text": "Mammographie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_cTEhXfL-UTaIJFLhsqDC9c3cNd8_P_QE520",
+              "name": "Mammogarphie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE520",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_OSIu6-0JN6YTUc550jG3O2n3z3s",
+                  "name": "Mammogarphie",
+                  "text": "<SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"Mammographie\"],\"type\":\"spellcorrection\"}]'>Mammogarphie</SPAN>",
+                  "date": {
+                    "value": "2016-04-03",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_LnVTZzME8obvYDLMj8ROJ32PKyM",
+          "name": "Computertomographie",
+          "values": [
+            {
+              "id": "p_Kx8815VHBWTLAVDDG84-QelW69E_P_ZA010",
+              "name": "Schädel-CT",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZA010",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_cnrRNtSgq6xxhliDCvIiDv_1T8k",
+                  "name": "Schädel-CT",
+                  "text": "Schädel-CT",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_MRZKGQiy3EqMiXxwi4fwklIBUm4_P_ZA010",
+              "name": "Schädel-CT",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZA010",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_Ybcyf27e1Y6-TWCH07E-BVmaHg0",
+                  "name": "Schädel-CT",
+                  "text": "Schädel-CT",
+                  "date": {
+                    "value": "2015-06-11",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_vqs6HQwnvpKAudqOA1hspHBy7Jw",
+          "name": "Interventionen",
+          "values": [
+            {
+              "id": "p_d_NfzSx_SkxTfNbx1nOzmaKy2xo_R_ZN010",
+              "name": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN010",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_0WfhuuwIRew_WnLScxVNWt2RNUs",
+                  "name": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+                  "text": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_rQW1gPrETCgU9Lhqk7xZOWtNDhI_P_ZN010",
+              "name": "ultraschallgezielte Biopsie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN010",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_zdv_wPKsc2iyk3KyYGCH2pPx6p4",
+                  "name": "ultraschallgezielte Biopsie",
+                  "text": "ultraschallgezielte Biopsie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_h67HqrcCn7qEIu78gjxs76I5XBo",
+          "name": "Sonographie",
+          "values": [
+            {
+              "id": "p_-YzsmTT3c3c_4E74AVT8yBSITjo_R_ZN610",
+              "name": "zur sonographisch",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN610",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_YuwwceNIlwH4wj5zD490g6MYG7o",
+                  "name": "zur sonographisch",
+                  "text": "zur sonographisch",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_24qjLvRAWp6dsv1YiaXWZyEmo_g_P_ZN610",
+              "name": "Sonographisch",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN610",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_QyTp0HhAcmSCAafuZWpAm3VVXo4",
+                  "name": "Sonographisch",
+                  "text": "Sonographisch",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_4B8Z9hLuf48FKSSwYw4jbfhq42k_P_EA510",
+              "name": "US Hirnversorgende Arterien",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "EA510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_SiBAX-ZNFSyvWddSoDMAVhVUBGw",
+                  "name": "US Hirnversorgende Arterien",
+                  "text": "US Hirnversorgende Arterien",
+                  "date": {
+                    "value": "2015-06-11",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_4B8Z9hLuf48FKSSwYw4jbfhq42k_P_EB510",
+              "name": "US Hirnversorgende Arterien",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "EB510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_SiBAX-ZNFSyvWddSoDMAVhVUBGw",
+                  "name": "US Hirnversorgende Arterien",
+                  "text": "US Hirnversorgende Arterien",
+                  "date": {
+                    "value": "2015-06-11",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_7zaIbw1yTn_s2ioGm0wZqPYUFx8_P_DZ510",
+              "name": "Transthorakales Echokardiographie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "DZ510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_7VJTS8th9AI5eVtlWf8754lZM7Q",
+                  "name": "Transthorakales Echokardiographie",
+                  "text": "Transthorakales Echokardiographie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_IhRBz-kO4cYCaauAmVcmvJmk6sk_R_EB510",
+              "name": "Nächste geplanter Duplexsonographie der Karotisgefäße in 2 Monaten",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "EB510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_asYrb9RvOt968A8LXzAu9gP-_uA",
+                  "name": "Nächste geplanter Duplexsonographie der Karotisgefäße in 2 Monaten",
+                  "text": "Nächste geplanter Duplexsonographie der Karotisgefäße in 2 Monaten",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_LiHYBLqy6zXtbVLzBzIWnPVv9w0_P_EB510",
+              "name": "Doppler/Duplex Sonographie der hirnversorgenden Halsarterien",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "EB510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_0vXnsG6LwJEF3owcBW-4MoWhdTc",
+                  "name": "Doppler/Duplex Sonographie der hirnversorgenden Halsarterien",
+                  "text": "Doppler/Duplex Sonographie der hirnversorgenden Halsarterien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340008"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_eKEbrkhRJ8t3BSfo0bckkQDiEU8_P_DZ510",
+              "name": "abklärung mittels Herzecho",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "DZ510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_NEzz7X7__g2wBDvKOAozFJPz9ok",
+                  "name": "abklärung mittels Herzecho",
+                  "text": "abklärung mittels Herzecho",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_hO60XdNBHwectMKYq3MtjDMOxh4_P_EA510",
+              "name": "US Hirnversorgende Arterien",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "EA510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_KUwMBqsJVlXzEylKsvHMyaDy9zQ",
+                  "name": "US Hirnversorgende Arterien",
+                  "text": "US Hirnversorgende Arterien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_hO60XdNBHwectMKYq3MtjDMOxh4_P_EB510",
+              "name": "US Hirnversorgende Arterien",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "EB510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_KUwMBqsJVlXzEylKsvHMyaDy9zQ",
+                  "name": "US Hirnversorgende Arterien",
+                  "text": "US Hirnversorgende Arterien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_iFsAuDWxlQhYf4knZz-awjApp2k_P_EB510",
+              "name": "Duplex Sonographie der Halsarterien",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "EB510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_PC7_h2MU8XG48PNy-DdYKhLpSrg",
+                  "name": "Duplex Sonographie der Halsarterien",
+                  "text": "Duplex Sonographie der Halsarterien",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_jI73QYYl3HDZe4TKYBBl6zkocpU_P_EB510",
+              "name": "Carotis-Doppler",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "EB510",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_Cpmimy6xXqFO6E0dwggRNOQvWH0",
+                  "name": "Carotis-Doppler",
+                  "text": "Carotis-Doppler",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "p_my4r1mdMcIxS28YHG-SrqCUk9rQ",
+                  "name": "Karotis-Doppler",
+                  "text": "Karotis-Doppler",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_kt-wAdG_5Fjp7IgAUy0vDB87gFw_P_QE530",
+              "name": "Ultraschalluntersuchung der Brust",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE530",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_cYfEOflnqVjWNkPWHLO505QZcG8",
+                  "name": "Ultraschalluntersuchung der linken Brust",
+                  "text": "Ultraschalluntersuchung der linken Brust",
+                  "date": {
+                    "value": "2016-04-12",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_t7U07MyBfTF1sXLHyJejeHX4ygg_P_ZN610",
+              "name": "Sonographie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN610",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p__4_EnvUebckv1EupQ3l2Qed8gP4",
+                  "name": "Sonographie",
+                  "text": "Sonographie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_yU-SU4RKvqzWRrWEEyJReHZP29I_R_FC510",
+              "name": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "FC510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_sqHHQn-erHQskHoHPB2j_bybl-o",
+                  "name": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+                  "text": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_yU-SU4RKvqzWRrWEEyJReHZP29I_R_QE530",
+              "name": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE530",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_sqHHQn-erHQskHoHPB2j_bybl-o",
+                  "name": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+                  "text": "Sonographie der Brust+Axilla und ultraschallgezielte Stanzbiopsie geplant",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_drs9LqkIIniVLJ3uLH0S60PnYK0",
+          "name": "Sonstige diagnostische und therapeutische Verfahren",
+          "values": [
+            {
+              "id": "p_cKpwsgYUnB7uOJBccf9By0MK_5E_P_ZN510",
+              "name": "Stanzbiopsie der Brust mit Formationen eines invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_Sx-6k9PTRiPiFfnvX4gvQjtW7uc",
+                  "name": "Stanzbiopsie der linken Brust mit Formationen eines invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "text": "Stanzbiopsie der linken Brust mit Formationen eines invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340016"
+                  ]
+                },
+                {
+                  "id": "p_iaonYVfC3dJLSFmUfTriWv-uKss",
+                  "name": "Stanzbiopsie der linken Brust mit Formationen eines invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "text": "Stanzbiopsie der linken Brust mit Formationen eines invasiv duktalen Mammakarzinoms (T2 N0 M0 V0 G2)",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_lkkuBjUtZ36yktOhhq5yE_plwa4_P_ZN510",
+              "name": "Stanzbiopsie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN510",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_a6McRXfkCNnSXdMhDBIgwARZbuI",
+                  "name": "Stanzbiopsie",
+                  "text": "Stanzbiopsie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340016"
+                  ]
+                },
+                {
+                  "id": "p_s30h2IbgN7wuPU6Pc3JZlD1Y7JA",
+                  "name": "Stanzbiopsie",
+                  "text": "Stanzbiopsie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_FYTt5zTXCMJZJJOGw8s-amfaP7o",
+      "name": "LABOR",
+      "values": [
+        {
+          "id": "p_sVrLpiZ8VVqPfXZY0lJ1Iv6Q_zM",
+          "name": "Laboruntersuchungen",
+          "values": [
+            {
+              "id": "p_xkZ0pOfMsIayrjkWoULVRdYWSwc_P_ZX899",
+              "name": "Labor",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZX899",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_FLzxBf4fClATw08UfYWzmI3Q_Ew",
+                  "name": "Labor",
+                  "text": "Labor",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "p_YaGiqJqQoYZxHF-UOx9hvoPqrPc",
+                  "name": "Labor",
+                  "text": "Labor",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "p_MIvX3o3owYhBH-zmws7D5ojERHE",
+                  "name": "Labor",
+                  "text": "Labor",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_-P7kEzV3PaiK-hjYfkqUOLX3Ko0",
+          "name": "Pathologie",
+          "values": [
+            {
+              "id": "p_h9BC9cAyjtlMP4RBMHluNgl-zNE_P_ZV610",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV610",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_YW9fofzkZeB_9w_p_ssiwUZkh0w",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_h9BC9cAyjtlMP4RBMHluNgl-zNE_P_ZV620",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV620",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_YW9fofzkZeB_9w_p_ssiwUZkh0w",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_h9BC9cAyjtlMP4RBMHluNgl-zNE_P_ZV630",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV630",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_YW9fofzkZeB_9w_p_ssiwUZkh0w",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_h9BC9cAyjtlMP4RBMHluNgl-zNE_P_ZV635",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV635",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_YW9fofzkZeB_9w_p_ssiwUZkh0w",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_hAtFIG5YvzQ4G1JV-XOBdFqnay0_P_ZV610",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV610",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_LqYXkc0kWfcWWYE3d8KqDmL83h0",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-13",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_hAtFIG5YvzQ4G1JV-XOBdFqnay0_P_ZV620",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV620",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_LqYXkc0kWfcWWYE3d8KqDmL83h0",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-13",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_hAtFIG5YvzQ4G1JV-XOBdFqnay0_P_ZV630",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV630",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_LqYXkc0kWfcWWYE3d8KqDmL83h0",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-13",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_hAtFIG5YvzQ4G1JV-XOBdFqnay0_P_ZV635",
+              "name": "Histologie",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZV635",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_LqYXkc0kWfcWWYE3d8KqDmL83h0",
+                  "name": "Histologie",
+                  "text": "Histologie",
+                  "date": {
+                    "value": "2016-04-13",
+                    "type": "concept"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_rU7AxeEBy_O9l5RBLnYGElSLYLU",
+      "name": "OPERATIONEN",
+      "values": [
+        {
+          "id": "p_LiJub6ht7k_XFuRDEF2koUNDYko",
+          "name": "Operationen an Leber und Gallenwegen",
+          "values": [
+            {
+              "id": "p_bIUAUfWhQgz7tkTw4pUSl18_DcM_T_HM100",
+              "name": "St.p. CHE",
+              "status": "statuspost",
+              "code": {
+                "catalog": "MEL",
+                "value": "HM100",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_JkKN1OETQi-jnWmEC1kHBvZq6Is",
+                  "name": "St.p. CHE",
+                  "text": "St.p. CHE",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "p_9FA6I0ZKkEelM5kG15jBSV4M_lY",
+                  "name": "St.p. CHE",
+                  "text": "St.p. CHE",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_bIUAUfWhQgz7tkTw4pUSl18_DcM_T_HM110",
+              "name": "St.p. CHE",
+              "status": "statuspost",
+              "code": {
+                "catalog": "MEL",
+                "value": "HM110",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_JkKN1OETQi-jnWmEC1kHBvZq6Is",
+                  "name": "St.p. CHE",
+                  "text": "St.p. CHE",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                },
+                {
+                  "id": "p_9FA6I0ZKkEelM5kG15jBSV4M_lY",
+                  "name": "St.p. CHE",
+                  "text": "St.p. CHE",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_HJqMyVwCIkycRMh9D7uS435-LXM",
+          "name": "Mammachirurgie",
+          "values": [
+            {
+              "id": "p_QztQ2oBe3kPFvESAghDodYWZIIg_R_QE040",
+              "name": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE040",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_b-3nQKEFSAcB6RMqrG_zXo8udXg",
+                  "name": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+                  "text": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_QztQ2oBe3kPFvESAghDodYWZIIg_R_QE050",
+              "name": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "QE050",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_b-3nQKEFSAcB6RMqrG_zXo8udXg",
+                  "name": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+                  "text": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_UHFheNaEIqEeMee4gUEkOmhj0RA",
+      "name": "THERAPIEN",
+      "values": [
+        {
+          "id": "p_fG5DgIE2qBf43xxbul712bvmJsU",
+          "name": "Andere Diagnostik und Therapie - Verdauungstrakt, Abdomen",
+          "values": [
+            {
+              "id": "p_4cl3CudSKnTXj-egtPxyMoUjIjg_P_HZ989",
+              "name": "Rektale Untersuchung",
+              "status": "positive",
+              "code": {
+                "catalog": "MEL",
+                "value": "HZ989",
+                "specific": false
+              },
+              "values": [
+                {
+                  "id": "p_3tMzVxd6r6nrniDFo1fV77AznrA",
+                  "name": "Rektale Untersuchung",
+                  "text": "Rektale Untersuchung",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p_NRwUGp_bYk_Gyj9NnIWt8j6KU2U",
+          "name": "Teletherapie",
+          "values": [
+            {
+              "id": "p_QztQ2oBe3kPFvESAghDodYWZIIg_R_ZN171",
+              "name": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+              "status": "recommended",
+              "code": {
+                "catalog": "MEL",
+                "value": "ZN171",
+                "specific": true
+              },
+              "values": [
+                {
+                  "id": "p_b-3nQKEFSAcB6RMqrG_zXo8udXg",
+                  "name": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+                  "text": "Quadrantenresektion mit intraoperativer Bestrahlung wird empfohlen",
+                  "date": {
+                    "value": "2016-04-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_2SFkLlCxt5M5nopFffxHAAqNLQo",
+      "name": "SONSTIGES",
+      "default": true,
+      "values": [
+        {
+          "id": "p_2SFkLlCxt5M5nopFffxHAAqNLQo",
+          "name": "Sonstiges",
+          "default": true,
+          "values": [
+            {
+              "id": "p_3cRmupG3Efm_PJsUw_BwWtXKkxc_P",
+              "name": "Anpassung der antihypertensiven Therapie",
+              "status": "positive",
+              "values": [
+                {
+                  "id": "p_vbE-_0kEaGBYT9Be2KRoSEWq_nc",
+                  "name": "Anpassung der antihypertensiven Therapie",
+                  "text": "Anpassung der antihypertensiven Therapie",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_9gCttKgV_u5VLbLiwKaLWTVFZFQ_P",
+              "name": "Auskultation der Karotiden",
+              "status": "positive",
+              "values": [
+                {
+                  "id": "p_Z6-IqWmmuUUcrJLTsa8Jk-spayQ",
+                  "name": "Auskultation der Karotiden",
+                  "text": "Auskultation der Karotiden",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340011"
+                  ]
+                },
+                {
+                  "id": "p_EWIVLONxvUxa8G-1HQp30IACeQk",
+                  "name": "Auskultation der Karotiden",
+                  "text": "Auskultation der Karotiden",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_D2AlI57Yay2KPCIJQYIMjsmrqmg_R",
+              "name": "Regelmäßige Augenkontrollen werden empfohlen",
+              "status": "recommended",
+              "values": [
+                {
+                  "id": "p_seLlJRs3_omPpNE5iozBAgoSV84",
+                  "name": "Regelmäßige Augenkontrollen werden empfohlen",
+                  "text": "Regelmäßige Augenkontrollen werden empfohlen",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_X-rHDyV-NZ0MtsiZgYUU8ruuwNA_P",
+              "name": "prophylaktische Therapie mit Thrombo ASS 100mg",
+              "status": "positive",
+              "values": [
+                {
+                  "id": "p_VqhwK8MS-Gq_U2CdrMmjJ2bjhA4",
+                  "name": "prophylaktische Therapie mit Thrombo ASS 100mg",
+                  "text": "prophylaktische Therapie mit <SPAN class=\"spellcorrection\" data-info='[{\"text\":[\"Thrombos\"],\"type\":\"spellcorrection\"}]'>Thrombo</SPAN> ASS 100mg",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p_wOCJwfDOe175G1ugrGAu49QOXIU_P",
+              "name": "Regelmäßige Blutdruckkontrollen",
+              "status": "positive",
+              "values": [
+                {
+                  "id": "p_Y4pA7_PxsIsoLUkF6uuKi5YCYIk",
+                  "name": "Regelmäßige Blutdruckkontrollen",
+                  "text": "Regelmäßige Blutdruckkontrollen",
+                  "date": {
+                    "value": "2015-06-xx",
+                    "type": "document"
+                  },
+                  "documentIds": [
+                    "12340012"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

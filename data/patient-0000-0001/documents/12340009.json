@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "id": "12340009",
+    "title": "Langzeit-EKG",
+    "version": "1",
+    "date": "2015-06-12",
+    "type": "Sonstiger Befund",
+    "group": "Befund",
+    "division": "Innere Medizin - Kardiologie, Angiologie",
+    "hospital": "Beispielkrankenhaus",
+    "department": "4. Medizinische Abteilung mit Kardiologie",
+    "admission": {
+      "id": "0000-0003",
+      "type": "inpatient",
+      "admission": {
+        "date": "2015-06-12",
+        "time": "11:02:00"
+      },
+      "discharge": {
+        "date": "2015-06-13",
+        "time": "10:35:00"
+      }
+    }
+  },
+  "text": "ORTXXX, am 12.06.2015<BR><BR>Frau<BR>Beispielpatientin<BR>Straße XY/AB<BR>PLZ Ort<BR><BR>Langzeit-EKG<BR><BR>Beispielpatientin, geb 15.03.1959<BR>Patienten-ID: 0000-0001<BR><BR> Fall-ID: 20150610<BR><BR>Indikation: Hypertensive Krise mit Schwindel und Sehbeeinträchtigung,<BR>weitere Ursachenabklärung<BR>Fragestellung: Arrhythmien? VHF?<BR><BR>Befundzusammenfassung<BR>LZ-EKG über 18:53 Stunden von guter Bandqualität.<BR>Durchgängiger Sinusrhythmus mit HF von 47 - 100 (67)/min;<BR>keine Pausen;<BR>20 SVES, keine Couplets; keine komplexen ventr. Arrhythmien;<BR>Kein Tagebuch vorliegend.<BR><BR>Befund: Dr. Arzt<BR>Vidiert: Dr. Arzt"
+}
