@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "as_of": "2016-04-15",
+  "scenarios": [
+    {
+      "id": "1",
+      "role": "Anaesthetist",
+      "checks": [
+        {"id": "1.1.true", "reference": "1.1", "truth": true, "category": "medication"},
+        {"id": "1.1.false", "reference": "1.1", "truth": false, "category": "medication", "statement": "Her documented current blood thinner is warfarin 5 mg every morning."},
+        {"id": "1.2.true", "reference": "1.2", "truth": true, "category": "allergy"},
+        {"id": "1.2.false", "reference": "1.2", "truth": false, "category": "allergy", "statement": "A penicillin allergy is documented."},
+        {"id": "1.3.true", "reference": "1.3", "truth": true, "category": "measurement_date"},
+        {"id": "1.3.false", "reference": "1.3", "truth": false, "category": "measurement_date", "statement": "Her latest documented ejection fraction was measured in April 2016."}
+      ]
+    },
+    {
+      "id": "2",
+      "role": "Surgeon",
+      "checks": [
+        {"id": "2.1.true", "reference": "2.1", "truth": true, "category": "histology_stage"},
+        {"id": "2.1.false", "reference": "2.1", "truth": false, "category": "histology_stage", "statement": "The breast tumour's documented histology is invasive lobular carcinoma."},
+        {"id": "2.2.true", "reference": "2.2", "truth": true, "category": "receptors"},
+        {"id": "2.2.false", "reference": "2.2", "truth": false, "category": "receptors", "statement": "The tumour is HER2 positive."},
+        {"id": "2.3.true", "reference": "2.3", "truth": true, "category": "planned_vs_completed"},
+        {"id": "2.3.false", "reference": "2.3", "truth": false, "category": "planned_vs_completed", "statement": "By the record cutoff, quadrantectomy with intraoperative radiotherapy had already been completed."}
+      ]
+    },
+    {
+      "id": "3",
+      "role": "General practitioner",
+      "checks": [
+        {"id": "3.1.true", "reference": "3.1", "truth": true, "category": "medication_units"},
+        {"id": "3.1.false", "reference": "3.1", "truth": false, "category": "medication_units", "statement": "Her documented Byetta dose is 5 milligrams per injection."},
+        {"id": "3.2.true", "reference": "3.2", "truth": true, "category": "stale_measurement"},
+        {"id": "3.2.false", "reference": "3.2", "truth": false, "category": "stale_measurement", "statement": "Her HbA1c of 6.4% was measured in April 2016."},
+        {"id": "3.3.true", "reference": "3.3", "truth": true, "category": "calculation"},
+        {"id": "3.3.false", "reference": "3.3", "truth": false, "category": "calculation", "statement": "She gained approximately 12 kg between June 2015 and April 2016."}
+      ]
+    },
+    {
+      "id": "4",
+      "role": "Emergency physician",
+      "checks": [
+        {"id": "4.1.true", "reference": "4.1", "truth": true, "category": "history"},
+        {"id": "4.1.false", "reference": "4.1", "truth": false, "category": "history", "statement": "There is no documented previous episode of dizziness with transient left-eye visual symptoms."},
+        {"id": "4.2.true", "reference": "4.2", "truth": true, "category": "missing_information"},
+        {"id": "4.2.false", "reference": "4.2", "truth": false, "category": "missing_information", "statement": "Documented renal-function laboratory results confirm normal kidney function."},
+        {"id": "4.3.true", "reference": "4.3", "truth": true, "category": "current_vs_historical_dose"},
+        {"id": "4.3.false", "reference": "4.3", "truth": false, "category": "current_vs_historical_dose", "statement": "As of April 2016, the latest documented Blopress schedule is one 16 mg tablet in the morning and half a tablet in the evening."}
+      ]
+    },
+    {
+      "id": "5",
+      "role": "General practitioner",
+      "checks": [
+        {"id": "5.1.true", "reference": "5.1", "truth": true, "category": "follow_up_interval"},
+        {"id": "5.1.false", "reference": "5.1", "truth": false, "category": "follow_up_interval", "statement": "At discharge in June 2015, the next carotid duplex ultrasound was recommended in two years."},
+        {"id": "5.2.true", "reference": "5.2", "truth": true, "category": "absence_vs_nonoccurrence"},
+        {"id": "5.2.false", "reference": "5.2", "truth": false, "category": "absence_vs_nonoccurrence", "statement": "The supplied record confirms that the recommended follow-up carotid ultrasound was completed in August 2015."},
+        {"id": "5.3.true", "reference": "5.3", "truth": true, "category": "laterality"},
+        {"id": "5.3.false", "reference": "5.3", "truth": false, "category": "laterality", "statement": "Every document consistently places the carotid stenosis exclusively on the right, without conflicting left-sided findings."}
+      ]
+    }
+  ]
+}

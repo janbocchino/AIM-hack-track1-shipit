@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clinical briefing</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a href="/" class="brand"><span class="cross" aria-hidden="true">+</span> Clinical briefing</a><span class="tag">Hackathon prototype · Synthetic patient</span></header>
+  <main>
+    <section class="intro"><p class="eyebrow">THE RECORD, IN CONTEXT</p><h1>What do you need to know?</h1><p class="subtitle">A focused patient briefing, with the evidence one click away.</p></section>
+    <div id="setup" class="notice" role="status" hidden></div>
+    <form id="briefing-form" class="panel input-panel">
+      <div class="form-top"><label>Clinical role<input id="role" name="role" value="Anaesthetist" placeholder="Your role" maxlength="120" required></label><label>Record cutoff<input id="as-of" name="as_of" type="date" value="2016-04-15" required></label></div>
+      <label>Task<textarea id="task" name="task" rows="2" maxlength="3000" required>Pre-operative anaesthesia check before quadrantectomy with intraoperative radiotherapy on 16 May 2016.</textarea></label>
+      <div class="form-bottom"><div class="presets" aria-label="Example situations"><span>Try</span><button type="button" data-preset="0">Anaesthesia</button><button type="button" data-preset="1">Surgery</button><button type="button" data-preset="2">Diabetes</button><button type="button" data-preset="3">Emergency</button><button type="button" data-preset="4">Follow-ups</button></div><button id="generate" class="primary" type="submit">Generate briefing <span aria-hidden="true">↗</span></button></div>
+      <p class="form-note">Generation sends all supplied documents and your task to OpenAI.</p>
+    </form>
+    <p id="error" class="notice error" role="alert" hidden></p>
+    <p id="quality-status" class="notice" role="status" hidden></p>
+    <div class="workspace">
+      <section class="panel briefing-panel" aria-labelledby="briefing-heading"><div class="panel-heading"><h2 id="briefing-heading">Patient briefing</h2><span id="timing" class="muted"></span></div><p id="briefing-context" class="muted"></p><div id="briefing" aria-live="polite"><div class="empty"><span class="empty-icon" aria-hidden="true">≡</span><h3>A little context goes a long way.</h3><p>Choose your role and task to see relevant facts,<br>missing information and conflicting statements.</p></div></div></section>
+      <aside class="panel source-panel" aria-labelledby="source-heading"><div class="panel-heading"><h2 id="source-heading">Source documents</h2><span id="document-count" class="tag"></span></div><label class="source-label" for="document-select">Browse the original record</label><select id="document-select"><option>Loading documents…</option></select><p id="source-meta" class="muted"></p><div id="source-text" tabindex="0" aria-label="Original German document"></div></aside>
+    </div>
+    <footer>Evidence links verify quotations. Clinical interpretation and contradiction detection still need review.</footer>
+  </main>
+</body>
+</html>

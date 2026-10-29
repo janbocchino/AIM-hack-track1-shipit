@@ -1,0 +1,142 @@
+{
+  "1.1": {
+    "scope": "medicat|antithrom|antiplatelet|blood.thinn|aspirin|thrombo",
+    "requirements": {
+      "aspirin name": ["thrombo\\s*ass|aspirin|acetylsalicylic"],
+      "100 mg": ["\\b100\\s*mg\\b"],
+      "morning dose": ["morning|morgens|1\\s*[-–]\\s*0\\s*[-–]\\s*0"]
+    }
+  },
+  "1.2": {
+    "scope": "allerg|contrast",
+    "requirements": {
+      "contrast allergy": ["contrast|kontrast|km.allerg"],
+      "nausea": ["nausea|übelkeit"],
+      "dizziness": ["dizz|schwindel|vertigo"],
+      "vomiting": ["vomit|erbrechen"]
+    }
+  },
+  "1.3": {
+    "scope": "heart|cardiac|cardiovascular|ventric|ejection|echo|systol",
+    "requirements": {
+      "EF 60%": ["\\b60\\s*%"],
+      "June 2015 measurement date": ["2015[-/.]06|june\\s+2015|06[./]2015"]
+    }
+  },
+  "2.1": {
+    "scope": "diagnos|histolog|carcin|tumou?r|breast|mamma",
+    "requirements": {
+      "invasive ductal histology": ["invasiv\\w*\\s+ductal|invasiv\\w*\\s+duktal"],
+      "left breast": ["left|links|sinist"],
+      "T2 N0 M0": ["t2\\s*n0\\s*m0"],
+      "V0 G2": ["v0\\s*g2"]
+    }
+  },
+  "2.2": {
+    "scope": "diagnos|histolog|carcin|tumou?r|breast|mamma|receptor|hormon|ki.?67|her.?2",
+    "requirements": {
+      "ER 100%": ["100(?:[.,]0+)?\\s*%"],
+      "PR 70%": ["70(?:[.,]0+)?\\s*%"],
+      "Allred 8": ["allred.{0,35}\\b8\\b"],
+      "Allred 7": ["allred.{0,35}\\b7\\b"],
+      "HER2 negative": ["her.?2(?:neu)?.{0,35}negativ"],
+      "Ki-67 20%": ["ki.?67.{0,45}20\\s*%"]
+    }
+  },
+  "2.3": {
+    "scope": "surg|proced|operat|tumou?r.board|recommend|plan",
+    "requirements": {
+      "quadrantectomy": ["quadrantectom|quadrant\\w*\\s*resect|quadrantenresektion"],
+      "intraoperative radiotherapy": ["iort|intraoperativ.{0,30}(radio|irradi|bestrahl)"],
+      "16 May 2016 surgery date": ["2016[-/.]05[-/.]16|16[./]0?5[./]2016|16(?:th)?\\s+(?:of\\s+)?may[,]?\\s+2016|may\\s+16(?:th)?[,]?\\s+2016"],
+      "planned/recommended status": ["planned|scheduled|recommend|geplant|empfohl"]
+    }
+  },
+  "3.1": {
+    "scope": "medicat|diabet|glucose|metformin|glucophage|pioglitazone|actos|exenatide|byetta",
+    "requirements": {
+      "metformin": ["metformin|glucophage"],
+      "metformin 1000 mg": ["1000\\s*mg"],
+      "three daily metformin doses": ["1\\s*[-–]\\s*1\\s*[-–]\\s*1|three\\s+times|thrice|morning.{0,25}midday.{0,25}evening"],
+      "pioglitazone": ["pioglitazone|actos"],
+      "pioglitazone 30 mg": ["\\b30\\s*mg"],
+      "midday pioglitazone dose": ["0\\s*[-–]\\s*1\\s*[-–]\\s*0|midday|noon|mittags"],
+      "exenatide": ["exenatide|byetta"],
+      "exenatide 5 micrograms": ["\\b5\\s*(?:µg|μg|mcg|microgram)"],
+      "subcutaneous route": ["subcut|s\\.?c\\.?"],
+      "morning and evening doses": ["1\\s*[-–]\\s*0\\s*[-–]\\s*1|morning.{0,30}evening"]
+    }
+  },
+  "3.2": {
+    "scope": "hba1c|glyc|diabet",
+    "requirements": {
+      "HbA1c 6.4%": ["6[.,]4\\s*%"],
+      "June 2015 measurement date": ["2015[-/.]06|june\\s+2015|06[./]2015"]
+    }
+  },
+  "3.3": {
+    "scope": "weight|anthrop|body.measure|gewicht",
+    "requirements": {
+      "baseline 78 kg": ["\\b78\\s*kg"],
+      "April 67 kg": ["\\b67\\s*kg|66\\s*[-–/]\\s*67\\s*kg"],
+      "later April 66 kg": ["\\b66\\s*kg|66\\s*[-–/]\\s*67\\s*kg"],
+      "explicit approximately 12 kg loss": ["(?:lost|loss|decreas|reduc|abnahme).{0,60}12\\s*kg|12\\s*kg.{0,25}(?:lost|loss|decreas|reduc|abnahme)"],
+      "2015 baseline date": ["2015"],
+      "2016 follow-up date": ["2016"]
+    }
+  },
+  "4.1": {
+    "scope": "history|hypertens|neurolog|eye|ophthal|carotid|carotis|diagnos|clinical.course|doppler",
+    "requirements": {
+      "previous hypertensive crisis": ["hypertensive\\s+crisis|hypertensiv\\w*\\s+krise"],
+      "June 2015 event": ["2015[-/.]06|june\\s+2015|\\d{1,2}[./]06[./]2015"],
+      "left-eye visual symptoms": ["amaurosis|left.eye|link.{0,20}auge"],
+      "60% stenosis": ["60\\s*%"],
+      "carotid cause": ["carotid|carotis"]
+    }
+  },
+  "4.2": {
+    "scope": "allerg|contrast|ct|brain|cranial|medicat|metformin|glucophage|renal|kidney|laborator",
+    "include_missing": true,
+    "requirements": {
+      "contrast allergy": ["contrast.{0,25}allerg|allerg.{0,25}contrast|km.allerg"],
+      "noncontrast CT": ["non[- ]?contrast|without\\s+contrast|nativ"],
+      "metformin": ["metformin|glucophage"],
+      "1000 mg three times daily": ["1000\\s*mg.{0,80}(?:1\\s*[-–]\\s*1\\s*[-–]\\s*1|three\\s+times|morning.{0,20}midday.{0,20}evening)"],
+      "kidney function explicitly not documented": ["(?:renal|kidney).{0,100}not\\s+documented|not\\s+documented.{0,100}(?:renal|kidney)"]
+    }
+  },
+  "4.3": {
+    "scope": "medicat|antihypertens|blood.pressure.*(?:drug|treat)|candesartan|blopress",
+    "requirements": {
+      "candesartan": ["candesartan|blopress"],
+      "16 mg": ["16\\s*mg"],
+      "morning and evening schedule": ["1\\s*[-–]\\s*0\\s*[-–]\\s*1|morning.{0,30}evening"],
+      "April 2016 current regimen": ["2016[-/.]04|april\\s+2016|\\d{1,2}[./]04[./]2016"]
+    }
+  },
+  "5.1": {
+    "scope": "follow|carotid|carotis|ophthal|eye|blood.pressure|monitor|recommend",
+    "requirements": {
+      "carotid ultrasound": ["duplex|ultrasound|sonograph"],
+      "two-month interval": ["(?:2|two)\\s*[- ]?months|2\\s*monaten"],
+      "eye follow-up": ["eye|ophthal|augen"],
+      "blood pressure follow-up": ["blood\\s+pressure|blutdruck"],
+      "GP medication adjustment": ["adjust.{0,60}(?:medicat|therap)|(?:medicat|therap).{0,60}adjust|anpassung"]
+    }
+  },
+  "5.2": {
+    "scope": "follow|carotid|carotis|duplex",
+    "include_missing": true,
+    "requirements": {
+      "follow-up carotid ultrasound not documented": ["(?:carotid|carotis|duplex).{0,160}(?:not\\s+documented|no\\s+(?:record|document)|no evidence)|(?:not\\s+documented|no\\s+(?:record|document)|no evidence).{0,160}(?:carotid|carotis|duplex)"]
+    }
+  },
+  "5.3": {
+    "scope": "carotid|carotis|stenosis|duplex",
+    "requirements": {
+      "left side": ["left|links|sinist"],
+      "60% stenosis": ["60\\s*%"]
+    }
+  }
+}
