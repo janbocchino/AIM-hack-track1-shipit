@@ -75,12 +75,12 @@ export const DRUG_CLASSES: Record<string, string> = {
   letrozol: "aromatase inhibitor (letrozole)", tamoxifen: "SERM", ramipril: "ACE inhibitor", "l-thyroxin": "levothyroxine", metamizol: "metamizole (analgesic)",
 };
 
-/** Display groups: keeps each screen short and scannable. */
+/** Display groups: keeps each screen short and scannable. Medication is rendered on its own. */
 export const GROUPS: { name: string; keys: string[] }[] = [
   { name: "Risks", keys: ["anticoagulation", "allergies", "cardiac", "priorAnaesthesia", "airway", "asa", "bloodGroup", "smoking"] },
   { name: "Body & labs", keys: ["age", "weight", "renal", "hemoglobin", "thyroid", "bloodPressure"] },
   { name: "Cancer history", keys: ["diagnosis", "receptors", "surgery", "radiotherapy", "endocrine", "recurrence"] },
-  { name: "Background", keys: ["comorbidities", "medication"] },
+  { name: "Background", keys: ["comorbidities"] },
 ];
 
 /** Why a critical fact matters (shown when the clinician expands it). */

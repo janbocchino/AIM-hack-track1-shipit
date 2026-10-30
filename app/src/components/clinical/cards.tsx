@@ -5,6 +5,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/component
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Input } from "@/components/ui/input";
 import { RefChip, RefChips, formatDate, useTranslation } from "./source-panel";
+import { DocumentSection, InteractionSection, MedicationSection, RiskSection } from "./chart";
 import { HorizontalTimeline } from "./timeline";
 import { addLesson, updateThread } from "@/lib/clinical/store";
 import { FACTS, WHY_CRITICAL } from "@/lib/clinical/knowledge";
@@ -72,7 +73,7 @@ function RejectButton({ onReject }: { onReject: (reason?: string) => void }) {
   );
 }
 
-export function FactRow({ fact, loc, profileId, contradictions = [] }: { fact: Fact; loc?: Loc | undefined; profileId: string; contradictions?: Contradiction[] }) {
+export function FactRow({ fact, loc, profileId, contradictions = [], displayValue }: { fact: Fact; loc?: Loc | undefined; profileId: string; contradictions?: Contradiction[]; displayValue?: string }) {
   const [open, setOpen] = useState(false);
   const pending = fact.status === "needs_confirmation" && !fact.decision;
   const conflicts = contradictions.filter((c) => c.refs.some((r) => fact.refs.some((x) => x.segId === r.segId)));
@@ -93,7 +94,7 @@ export function FactRow({ fact, loc, profileId, contradictions = [] }: { fact: F
         <StatusMark fact={fact} />
         <div className="text-sm text-muted-foreground">{fact.label}</div>
         <div className="min-w-0">
-          <div className="text-sm font-medium leading-snug">{fact.value}</div>
+          <div className="text-sm font-medium leading-snug">{displayValue ?? fact.value}</div>
           {fact.refs[0] && !open && <div className="mt-0.5 line-clamp-1 text-xs text-muted-foreground">“{fact.refs[0].text}”</div>}
           {fact.note && <div className={cn("mt-0.5 text-xs", /conflict|Rejected/.test(fact.note) ? "text-conflict" : "text-muted-foreground")}>{fact.note}</div>}
           {fact.decision === "confirmed" && <div className="mt-0.5 text-xs text-success">Confirmed by you</div>}
@@ -228,24 +229,29 @@ function MissingFact({ loc, ctx, present }: { loc: Loc; ctx: TaskContext; presen
   );
 }
 
-function FactList({ facts, loc, profileId, contradictions, groups }: { facts: Fact[]; loc?: Loc | undefined; profileId: string; contradictions: Contradiction[]; groups?: { name: string; keys: string[] }[] }) {
+function FactList({ facts, loc, profileId, contradictions, groups, inset = true, showMissing = true }: { facts: Fact[]; loc?: Loc | undefined; profileId: string; contradictions: Contradiction[]; groups?: { name: string; keys: string[] }[]; inset?: boolean; showMissing?: boolean }) {
   const documented = facts.filter((f) => f.status !== "not_documented" || (f as { decision?: Decision }).decision);
-  const missing = facts.filter((f) => f.status === "not_documented" && !(f as { decision?: Decision }).decision);
-  const gs = groups ?? [{ name: "", keys: facts.map((f) => f.key) }];
+  const gs = (groups ?? [{ name: "", keys: facts.map((f) => f.key) }])
+    .map((g) => ({ ...g, keys: g.keys.filter((k) => k !== "medication") }))
+    .filter((g) => g.keys.length);
+  const scoped = new Set(gs.flatMap((g) => g.keys));
+  const missing = facts.filter((f) => f.key !== "medication" && scoped.has(f.key) && f.status === "not_documented" && !(f as { decision?: Decision }).decision);
   return (
     <>
       {gs.map((g) => {
         const list = documented.filter((f) => g.keys.includes(f.key));
         if (!list.length) return null;
         return (
-          <div key={g.name} className="px-2 pt-3">
-            {g.name && <div className="px-3 text-[11px] font-medium uppercase tracking-wide text-muted-foreground">{g.name}</div>}
-            {list.map((f) => <FactRow key={f.key} fact={f} loc={loc} profileId={profileId} contradictions={contradictions} />)}
+          <div key={g.name || "facts"} className={cn("overflow-hidden rounded-lg border", inset && "mx-3 mt-3")}>
+            {g.name && <div className="border-b bg-muted/40 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">{g.name}</div>}
+            <div className="py-1">
+              {list.map((f) => <FactRow key={f.key} fact={f} loc={loc} profileId={profileId} contradictions={contradictions} />)}
+            </div>
           </div>
         );
       })}
-      {missing.length > 0 && (
-        <div className="mx-5 mt-2 flex items-start gap-2 border-t pt-3 text-xs text-muted-foreground">
+      {showMissing && missing.length > 0 && (
+        <div className={cn("mt-3 flex items-start gap-2 text-xs text-muted-foreground", inset ? "mx-5 border-t pt-3" : "px-1")}>
           <CircleDashed className="mt-0.5 size-3.5 shrink-0" />
           <span><span className="font-medium text-foreground">Not documented:</span> {missing.map((f) => f.label).join(", ")}</span>
         </div>
@@ -285,9 +291,14 @@ export function ResultView({ result, loc }: { result: TurnResult; loc?: Loc | un
   }
 
   if (result.kind === "history") {
+    const medication = result.facts.find((f) => f.key === "medication");
     return (
       <div className="space-y-3">
         <HorizontalTimeline events={result.timeline} />
+        <MedicationSection footer={medication && (medication.status === "needs_confirmation" || medication.decision) ? <div className="border-t"><FactRow fact={medication} loc={loc} profileId="generic" contradictions={result.contradictions} displayValue="Confirm this list against the source quote." /></div> : undefined} />
+        <InteractionSection />
+        <RiskSection />
+        <DocumentSection />
         <section className="rounded-lg border bg-card pb-3">
           <h2 className="px-5 pt-4 text-base font-semibold">Key facts</h2>
           <FactList facts={result.facts} loc={loc} profileId="generic" contradictions={result.contradictions} />
@@ -300,6 +311,14 @@ export function ResultView({ result, loc }: { result: TurnResult; loc?: Loc | un
 
   const pending = result.facts.filter((f) => f.status === "needs_confirmation" && !(f as { decision?: Decision }).decision).length;
   const cardId = `card-${loc?.itemId ?? "x"}`;
+  const medication = result.facts.find((f) => f.key === "medication");
+  const risks = result.groups.filter((g) => g.name === "Risks");
+  const rest = result.groups.filter((g) => g.name !== "Risks");
+  const riskKeys = risks.flatMap((g) => g.keys);
+  const hasRiskFacts = result.facts.some((f) => riskKeys.includes(f.key) && (f.status !== "not_documented" || f.decision));
+  const medFooter = medication && (medication.status === "needs_confirmation" || medication.decision)
+    ? <div className="border-t"><FactRow fact={medication} loc={loc} profileId={result.context.profileId} contradictions={result.contradictions} displayValue="Confirm this list against the source quote." /></div>
+    : undefined;
   return (
     <div className="space-y-3">
       <section id={cardId} className="overflow-hidden rounded-lg border bg-card">
@@ -312,7 +331,15 @@ export function ResultView({ result, loc }: { result: TurnResult; loc?: Loc | un
         </header>
         <ConfirmBanner count={pending} id={cardId} />
         {result.conclusion?.length > 0 && <div className="px-5 pt-4"><ConclusionBox points={result.conclusion} facts={result.facts} /></div>}
-        <FactList facts={result.facts} loc={loc} profileId={result.context.profileId} contradictions={result.contradictions} groups={result.groups} />
+        <div className="space-y-3 px-3 pt-4">
+          <MedicationSection footer={medFooter} />
+          <InteractionSection />
+          {hasRiskFacts
+            ? <FactList facts={result.facts} loc={loc} profileId={result.context.profileId} contradictions={result.contradictions} groups={risks} inset={false} />
+            : <RiskSection />}
+          <FactList facts={result.facts} loc={loc} profileId={result.context.profileId} contradictions={result.contradictions} groups={hasRiskFacts ? rest : [...rest, ...risks]} inset={false} />
+          <DocumentSection />
+        </div>
         <footer className="mt-3 border-t px-5 py-2.5">
           <PlanRow plan={result.plan} ms={result.ms} dropped={result.dropped} excluded={result.excluded} />
         </footer>

@@ -5,6 +5,7 @@ import { Message, MessageContent } from "@/components/ai-elements/message";
 import { Shimmer } from "@/components/clinical/shimmer";
 import { AppShell } from "@/components/clinical/app-shell";
 import { ResultView } from "@/components/clinical/cards";
+import { DocumentSection, InteractionSection, MedicationSection, RiskSection } from "@/components/clinical/chart";
 import { Composer } from "@/components/clinical/composer";
 import { sendTurn } from "@/lib/clinical/send-turn";
 import { createThread, useStore } from "@/lib/clinical/store";
@@ -74,6 +75,13 @@ function ChatPage() {
                     <div className="line-clamp-2 text-xs text-muted-foreground">{s.description}</div>
                   </button>
                 ))}
+              </div>
+              <div className="mt-8 space-y-3">
+                <h2 className="text-sm font-semibold tracking-tight">Patient chart</h2>
+                <MedicationSection />
+                <InteractionSection />
+                <RiskSection />
+                <DocumentSection />
               </div>
             </div>
           )}

@@ -2,6 +2,7 @@ import { createOpenAI } from "@ai-sdk/openai";
 import { stepCountIs, streamText, tool, type ModelMessage } from "ai";
 import process from "node:process";
 import { z } from "zod";
+import { serverEnv } from "./server-env";
 import { createAgentRunner } from "./clinical/ai.server";
 import { runTurn } from "./clinical/pipeline.server";
 import type { TaskContext, TurnResult } from "./clinical/types";
@@ -53,10 +54,10 @@ type ProviderEvent = {
 export function getLiveConfig(): LiveConfig {
   const config: LiveConfig = {
     ...liveSettings,
-    key: process.env["LOVABLE_API_KEY"] ?? "",
+    key: serverEnv("LOVABLE_API_KEY"),
   };
   if ([config.baseURL, config.key, config.liveModel, config.backendModel].some((value) => !value)) {
-    throw new Error("Missing Live relay configuration");
+    throw new Error("Live voice requires LOVABLE_API_KEY. Chat and transcription can use OPENAI_API_KEY.");
   }
   return config;
 }

@@ -11,7 +11,7 @@ Run commands from this directory with Node.js 22.12+ and Bun 1.3+:
 ```sh
 bun install --frozen-lockfile
 cp .env.example .env
-# Set LOVABLE_API_KEY in .env before starting the server.
+# Set OPENAI_API_KEY or LOVABLE_API_KEY in .env before starting the server.
 bun --env-file=.env run dev
 ```
 

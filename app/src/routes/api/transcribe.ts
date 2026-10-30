@@ -6,8 +6,10 @@ export const Route = createFileRoute("/api/transcribe")({
   server: {
     handlers: {
       POST: async ({ request }) => {
-        const apiKey = process.env["LOVABLE_API_KEY"];
-        if (!apiKey) return Response.json({ error: "AI is not configured" }, { status: 500 });
+        const { resolveAiBackend, resolveSpeechBackend } = await import("@/lib/clinical/ai.server");
+        const backend = resolveAiBackend();
+        if (!backend) return Response.json({ error: "AI is not configured. Set OPENROUTER_API_KEY, OPENAI_API_KEY, or LOVABLE_API_KEY." }, { status: 500 });
+        const speech = resolveSpeechBackend(backend);
         const len = Number(request.headers.get("content-length") ?? 0);
         if (len > MAX) return Response.json({ error: "Recording too long" }, { status: 413 });
         const form = await request.formData();
@@ -16,9 +18,9 @@ export const Route = createFileRoute("/api/transcribe")({
         const { transcribe } = await import("@/lib/voice/transcribe.server");
         try {
           const upstream = await transcribe(
-            { baseURL: "https://ai.gateway.lovable.dev", apiKey, model: "openai/gpt-transcribe", maxFileBytes: MAX, audioOnly: false },
+            { baseURL: speech.audioBaseURL, apiKey: speech.apiKey, model: speech.model, maxFileBytes: MAX, audioOnly: false },
             file,
-            { signal: request.signal },
+            { signal: request.signal, buffered: speech.buffered },
           );
           return new Response(upstream.body, {
             status: upstream.status,
