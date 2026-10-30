@@ -1,0 +1,79 @@
+{
+  "duration": 104,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "narration": "Text-led; system voice removed",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "title": "Medical emergency"
+    },
+    {
+      "start": 6,
+      "end": 18,
+      "title": "LEVRIQ finds the relevant evidence."
+    },
+    {
+      "start": 18,
+      "end": 40,
+      "title": "Review the evidence."
+    },
+    {
+      "start": 40,
+      "end": 66,
+      "title": "From documents to evidence."
+    },
+    {
+      "start": 66,
+      "end": 80,
+      "title": "Change the role. Change the focus."
+    },
+    {
+      "start": 80,
+      "end": 97,
+      "title": "Clinical value"
+    },
+    {
+      "start": 97,
+      "end": 104,
+      "title": ""
+    }
+  ],
+  "demoPlaceholders": [
+    {
+      "start": 6,
+      "end": 18,
+      "purpose": "Enter emergency physician role and task",
+      "rect": [
+        680,
+        270,
+        1152,
+        648
+      ]
+    },
+    {
+      "start": 18,
+      "end": 40,
+      "purpose": "Review results, gaps and conflicts; inspect a source",
+      "rect": [
+        680,
+        270,
+        1152,
+        648
+      ]
+    },
+    {
+      "start": 66,
+      "end": 80,
+      "purpose": "Switch to anaesthetist and show updated results",
+      "rect": [
+        680,
+        270,
+        1152,
+        648
+      ]
+    }
+  ]
+}

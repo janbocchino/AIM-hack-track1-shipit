@@ -1,0 +1,4 @@
+Mode: built-in imagegen. Transparent background enabled.
+Input: levriq-logo-original.png (in this folder)
+
+Use case: background-extraction. Edit target: the attached existing LEVRIQ brand logo. Remove ONLY the white/off-white textured paper background and make that background fully transparent, including the empty spaces between the lettering and logo lines. Preserve the exact original brand symbol, its teal-to-navy colours, all edges, the word LEVRIQ, and the tagline FIND. CONTEXTUALIZE. VERIFY. Keep the layout, proportions, typography and spelling unchanged. This is a precise logo cutout for use on a clean white video canvas, not a logo redesign. Return an actual transparent PNG with no checkerboard baked in, no shadows, no added text, no new background. Trim excess empty canvas to a close but comfortable margin around the complete horizontal logo and tagline.

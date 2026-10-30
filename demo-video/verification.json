@@ -1,0 +1,24 @@
+{
+  "audioTracks" : 0,
+  "checksPassed" : true,
+  "decodedFrames" : [
+    3,
+    12,
+    26,
+    37,
+    50,
+    63,
+    73,
+    94,
+    101
+  ],
+  "durationSeconds" : 104,
+  "edgeMinimumRGB" : 252,
+  "footerRemoved" : true,
+  "fps" : 24,
+  "height" : 1080,
+  "logoHasTransparentBackground" : true,
+  "narration" : "None: text-led cut",
+  "progressBarRemoved" : true,
+  "width" : 1920
+}

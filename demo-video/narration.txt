@@ -1,0 +1,13 @@
+Two a.m. A medical emergency. Dizziness and blurred vision. She needs urgent medical assessment.
+
+With LEVRIQ, the physician starts with their role and clinical question.
+
+The relevant history, medications and allergies appear together. Missing renal function is marked. Conflicting records are flagged. Open a finding to check the original passage.
+
+Here’s the architecture. Extract facts and keep their source passages. Use the clinician’s role and question to retrieve relevant evidence. Verify the sources, dates, calculations and contradictions. Then show the findings with their evidence attached.
+
+Switch to anaesthesia. The focus shifts to blood thinners, allergies and cardiac function.
+
+Read the relevant history. See gaps and conflicts. Check the original source.
+
+LEVRIQ. Find. Contextualize. Verify.

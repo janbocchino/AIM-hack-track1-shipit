@@ -5,11 +5,19 @@ their role and task, and the app builds a patient screen with source-linked fact
 contradictions, a timeline, and a clinical summary. Text chat, dictation, and a
 hands-free voice screen share the clinical pipeline.
 
+## Hackathon demo
+
+Watch the [1:44 LEVRIQ demo video](demo-video/levriq-demo.mp4), including the
+architecture animation and marked placeholders for upcoming product footage.
+See the [demo editing and rebuild guide](demo-video/README.md) for scene timings
+and editable sources.
+
 ## Repository layout
 
 | Folder | Contents |
 | --- | --- |
 | [`app/`](app/) | Runnable TanStack Start / React / TypeScript application, configuration, lockfile, and tests |
+| [`demo-video/`](demo-video/) | LEVRIQ hackathon video, storyboard, branding and editable rendering sources |
 | [`resources/`](resources/) | Original hackathon brief, supplied cases, and reference data |
 | [`resources/README.md`](resources/README.md) | Track requirements, judging criteria, and submission instructions |
 | [`resources/cases/`](resources/cases/) | Official situations and expected answers |
